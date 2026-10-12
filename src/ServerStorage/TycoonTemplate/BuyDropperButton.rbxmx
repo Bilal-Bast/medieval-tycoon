@@ -115,7 +115,7 @@
         <bool name="ClipsDescendants">true</bool>
         <float name="DistanceLowerLimit">0</float>
         <float name="DistanceUpperLimit">-1</float>
-        <bool name="Enabled">true</bool>
+        <bool name="Enabled">false</bool>
         <Vector3 name="ExtentsOffset">
           <X>0</X>
           <Y>0</Y>

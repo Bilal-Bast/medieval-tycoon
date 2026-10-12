@@ -4,25 +4,25 @@
     "WorldPivotData": {
       "OptionalCFrame": {
         "position": [
-          5.0,
-          8.0,
-          -37.5
+          0,
+          0,
+          0
         ],
         "orientation": [
           [
-            1.0,
-            0.0,
-            0.0
+            1,
+            0,
+            0
           ],
           [
-            0.0,
-            1.0,
-            0.0
+            0,
+            1,
+            0
           ],
           [
-            0.0,
-            0.0,
-            1.0
+            0,
+            0,
+            1
           ]
         ]
       }
@@ -30,19 +30,20 @@
   },
   "children": [
     {
-      "name": "DropperBody",
+      "name": "Excavation2",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": true,
-        "CanTouch": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              5.0,
-              8.0,
-              -37.5
+              -43.0,
+              1.12,
+              -3.0
             ],
             "orientation": [
               [
@@ -64,18 +65,382 @@
           }
         },
         "Color": [
-          0.31,
-          0.19,
-          0.1
+          0.403922,
+          0.368627,
+          0.317647
         ],
-        "Material": "WoodPlanks",
+        "Material": "Ground",
         "Size": [
-          6.0,
-          8.0,
-          6.0
+          9.0,
+          0.22,
+          8.0
         ],
-        "Transparency": 0.0,
+        "Transparency": 0,
         "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CutStone0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -46.0,
+              2.0,
+              -4.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.541176,
+          0.552941,
+          0.545098
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.0,
+          1.5,
+          1.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CutStone1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -43.6,
+              2.0,
+              -4.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.541176,
+          0.552941,
+          0.545098
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.0,
+          1.5,
+          1.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CutStone2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -41.2,
+              2.0,
+              -4.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.541176,
+          0.552941,
+          0.545098
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.0,
+          1.5,
+          1.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CutStone3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -46.0,
+              3.0,
+              -3.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.541176,
+          0.552941,
+          0.545098
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.0,
+          1.5,
+          1.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CutStone4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -43.6,
+              3.0,
+              -3.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.541176,
+          0.552941,
+          0.545098
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.0,
+          1.5,
+          1.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CartWheelL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -45.0,
+              1.55,
+              1.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.211765,
+          0.219608
+        ],
+        "Material": "Metal",
+        "Size": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "CartWheelR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -41.0,
+              1.55,
+              1.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.211765,
+          0.219608
+        ],
+        "Material": "Metal",
+        "Size": [
+          0.95,
+          0.95,
+          0.95
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
@@ -86,14 +451,15 @@
       "properties": {
         "Anchored": true,
         "CanCollide": false,
-        "CanQuery": true,
-        "CanTouch": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              3.0,
-              5.0,
-              -38.5
+              -43.0,
+              4.7,
+              6.0
             ],
             "orientation": [
               [
@@ -115,380 +481,20 @@
           }
         },
         "Color": [
-          0.6392156862745098,
-          0.6352941176470588,
-          0.6470588235294118
-        ],
-        "Material": "Plastic",
-        "Size": [
           1.0,
           1.0,
           1.0
         ],
-        "Transparency": 1.0,
+        "Material": "Plastic",
+        "Size": [
+          0.8,
+          0.8,
+          0.8
+        ],
+        "Transparency": 1,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "LumberRoof",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              5.0,
-              12.35,
-              -37.5
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.27,
-          0.16,
-          0.085
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          9.0,
-          0.7,
-          8.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "LumberRoofRidge",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              5.0,
-              12.9,
-              -37.5
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.4,
-          0.27,
-          0.13
-        ],
-        "Material": "Wood",
-        "Size": [
-          9.5,
-          0.35,
-          0.65
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "LumberSupportLeft",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              1.8,
-              8.0,
-              -34.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.31,
-          0.19,
-          0.1
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.7,
-          8.0,
-          0.7
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "LumberSupportRight",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              8.2,
-              8.0,
-              -34.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.31,
-          0.19,
-          0.1
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.7,
-          8.0,
-          0.7
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "LumberLogOne",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              5.0,
-              4.55,
-              -32.5
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.47,
-          0.3,
-          0.15
-        ],
-        "Material": "Wood",
-        "Size": [
-          6.5,
-          0.8,
-          0.8
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth",
-        "Shape": "Cylinder"
-      }
-    },
-    {
-      "name": "LumberLogTwo",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              5.0,
-              5.4,
-              -32.5
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.39,
-          0.24,
-          0.12
-        ],
-        "Material": "Wood",
-        "Size": [
-          6.5,
-          0.8,
-          0.8
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth",
-        "Shape": "Cylinder"
-      }
-    },
-    {
-      "name": "LumberLogThree",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              5.0,
-              6.25,
-              -32.5
-            ],
-            "orientation": [
-              [
-                1.0,
-                0,
-                0.0
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.0,
-                0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.52,
-          0.34,
-          0.18
-        ],
-        "Material": "Wood",
-        "Size": [
-          6.5,
-          0.8,
-          0.8
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth",
-        "Shape": "Cylinder"
       }
     }
   ]
