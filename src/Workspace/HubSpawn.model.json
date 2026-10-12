@@ -1,0 +1,47 @@
+{
+  "className": "SpawnLocation",
+  "properties": {
+    "AllowTeamChangeOnTouch": false,
+    "Anchored": true,
+    "CanCollide": false,
+    "CanQuery": false,
+    "CanTouch": true,
+    "CastShadow": false,
+    "CFrame": {
+      "CFrame": {
+        "position": [
+          13,
+          1.02,
+          13
+        ],
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    },
+    "Duration": 0,
+    "Enabled": true,
+    "Neutral": true,
+    "Size": [
+      8,
+      1,
+      8
+    ],
+    "Transparency": 1
+  },
+  "children": []
+}

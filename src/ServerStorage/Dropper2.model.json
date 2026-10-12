@@ -1,0 +1,495 @@
+{
+  "className": "Model",
+  "properties": {
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          -5.0,
+          8.0,
+          -37.5
+        ],
+        "orientation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "DropperBody",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": true,
+        "CanTouch": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -5.0,
+              8.0,
+              -37.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.35,
+          0.36
+        ],
+        "Material": "Slate",
+        "Size": [
+          6.0,
+          8.0,
+          6.0
+        ],
+        "Transparency": 0.0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "DropPoint",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": true,
+        "CanTouch": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -7.0,
+              5.0,
+              -38.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.6392156862745098,
+          0.6352941176470588,
+          0.6470588235294118
+        ],
+        "Material": "Plastic",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 1.0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "QuarryRoof",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -5.0,
+              12.35,
+              -37.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.25,
+          0.27
+        ],
+        "Material": "Slate",
+        "Size": [
+          9.0,
+          0.7,
+          8.0
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "QuarryRidge",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -5.0,
+              12.9,
+              -37.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.38,
+          0.29,
+          0.18
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.5,
+          0.35,
+          0.65
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "QuarrySupportLeft",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -8.2,
+              8.0,
+              -34.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.7,
+          8.0,
+          0.7
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "QuarrySupportRight",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -1.8,
+              8.0,
+              -34.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.7,
+          8.0,
+          0.7
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "QuarryStoneOne",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -5.0,
+              4.5,
+              -32.6
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.35,
+          0.36,
+          0.38
+        ],
+        "Material": "Slate",
+        "Size": [
+          2.4,
+          1.5,
+          2.2
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Wedge"
+      }
+    },
+    {
+      "name": "QuarryStoneTwo",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -7.4,
+              4.3,
+              -32.2
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.43,
+          0.44,
+          0.45
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.8,
+          1.3,
+          1.7
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Wedge"
+      }
+    },
+    {
+      "name": "QuarryStoneThree",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanTouch": false,
+        "CanQuery": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -2.7,
+              4.7,
+              -32.4
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.3,
+          0.32
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          1.4,
+          1.8
+        ],
+        "Transparency": 0.0,
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth",
+        "Shape": "Wedge"
+      }
+    }
+  ]
+}

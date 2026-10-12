@@ -17,6 +17,8 @@ local Config = {
 			ButtonName = "BuyDropperButton",
 			MoneyPerDrop = 10,
 			DropInterval = 2,
+			ResourceColor = Color3.fromRGB(122, 78, 43),
+			ResourceMaterial = Enum.Material.WoodPlanks,
 		},
 		Dropper2 = {
 			Cost = 150,
@@ -24,6 +26,8 @@ local Config = {
 			MoneyPerDrop = 20,
 			DropInterval = 2,
 			Requires = "Dropper1",
+			ResourceColor = Color3.fromRGB(103, 108, 112),
+			ResourceMaterial = Enum.Material.Slate,
 		},
 	},
 }

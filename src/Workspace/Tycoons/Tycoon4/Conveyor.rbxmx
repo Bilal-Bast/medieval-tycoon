@@ -35,8 +35,7 @@
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
       <int name="CollisionGroupId">0</int>
-      <Color3uint8 name="Color3uint8">9412261</Color3uint8>
-      <PhysicalProperties name="CustomPhysicalProperties">
+      <Color3uint8 name="Color3uint8">6440235</Color3uint8><PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
       <bool name="EnableFluidForces">true</bool>
@@ -52,8 +51,7 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">256</token>
-      <string name="MaterialVariantSerialized" />
+      <token name="Material">528</token><string name="MaterialVariantSerialized" />
       <CoordinateFrame name="PivotOffset">
         <X>0</X>
         <Y>0</Y>

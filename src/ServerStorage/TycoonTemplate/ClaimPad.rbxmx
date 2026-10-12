@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <roblox version="4">
   <Item class="Part" referent="32">
     <Properties>
@@ -28,14 +28,14 @@
         <R21>0</R21>
         <R22>1</R22>
       </CoordinateFrame>
-      <bool name="CanCollide">true</bool>
+      <bool name="CanCollide">false</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>
       <SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
       <bool name="CastShadow">true</bool>
       <string name="CollisionGroup">Default</string>
       <int name="CollisionGroupId">0</int>
-      <Color3uint8 name="Color3uint8">65280</Color3uint8>
+      <Color3uint8 name="Color3uint8">7828330</Color3uint8>
       <PhysicalProperties name="CustomPhysicalProperties">
         <CustomPhysics>false</CustomPhysics>
       </PhysicalProperties>
@@ -52,7 +52,7 @@
       <token name="LeftSurfaceInput">0</token>
       <bool name="Locked">false</bool>
       <bool name="Massless">false</bool>
-      <token name="Material">256</token>
+      <token name="Material">800</token>
       <string name="MaterialVariantSerialized" />
       <CoordinateFrame name="PivotOffset">
         <X>0</X>
@@ -128,7 +128,7 @@
         </Vector3>
         <UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
         <float name="LightInfluence">1</float>
-        <float name="MaxDistance">INF</float>
+        <float name="MaxDistance">55</float>
         <Ref name="PlayerToHideFrom">null</Ref>
         <bool name="ResetOnSpawn">true</bool>
         <Ref name="RootLocalizationTable">null</Ref>
@@ -142,9 +142,9 @@
             </BinaryString>
         <UDim2 name="Size">
           <XS>0</XS>
-          <XO>200</XO>
+          <XO>210</XO>
           <YS>0</YS>
-          <YO>80</YO>
+          <YO>64</YO>
         </UDim2>
         <Vector2 name="SizeOffset">
           <X>0</X>
@@ -153,11 +153,11 @@
         <int64 name="SourceAssetId">-1</int64>
         <Vector3 name="StudsOffset">
           <X>0</X>
-          <Y>3</Y>
+          <Y>3.8</Y>
           <Z>0</Z>
         </Vector3>
         <Vector3 name="StudsOffsetWorldSpace">
-          <X>0</X>
+          <X>-2</X>
           <Y>0</Y>
           <Z>0</Z>
         </Vector3>
@@ -177,11 +177,11 @@
           <bool name="AutoLocalize">true</bool>
           <token name="AutomaticSize">0</token>
           <Color3 name="BackgroundColor3">
-            <R>1</R>
-            <G>1</G>
-            <B>1</B>
+            <R>0.105</R>
+            <G>0.071</G>
+            <B>0.043</B>
           </Color3>
-          <float name="BackgroundTransparency">1</float>
+          <float name="BackgroundTransparency">0.12</float>
           <Color3 name="BorderColor3">
             <R>0</R>
             <G>0</G>
@@ -196,7 +196,7 @@
             <Family>
               <url>rbxasset://fonts/families/SourceSansPro.json</url>
             </Family>
-            <Weight>400</Weight>
+            <Weight>700</Weight>
             <Style>Normal</Style>
             <CachedFaceId>
               <url>rbxasset://fonts/SourceSansPro-Regular.ttf</url>
@@ -216,11 +216,11 @@
           <string name="OpenTypeFeatures" />
           <UDim2 name="Position">
             <XS>0</XS>
-            <XO>0</XO>
+            <XO>10</XO>
             <YS>0</YS>
-            <YO>0</YO>
+            <YO>6</YO>
           </UDim2>
-          <bool name="RichText">false</bool>
+          <bool name="RichText">true</bool>
           <Ref name="RootLocalizationTable">null</Ref>
           <float name="Rotation">0</float>
           <bool name="DefinesCapabilities">false</bool>
@@ -237,31 +237,32 @@
           <token name="Sink">0</token>
           <UDim2 name="Size">
             <XS>0</XS>
-            <XO>200</XO>
+            <XO>190</XO>
             <YS>0</YS>
-            <YO>50</YO>
+            <YO>52</YO>
           </UDim2>
           <token name="SizeConstraint">0</token>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags" />
-          <string name="Text">CLAIM TYCOON</string>
+          <string name="Text">&lt;font size="19"&gt;&lt;b&gt;CLAIM KINGDOM&lt;/b&gt;&lt;/font&gt;
+&lt;font size="15"&gt;TOUCH TO CLAIM&lt;/font&gt;</string>
           <Color3 name="TextColor3">
-            <R>0</R>
-            <G>0</G>
-            <B>0</B>
+            <R>0.96</R>
+            <G>0.82</G>
+            <B>0.53</B>
           </Color3>
           <token name="TextDirection">0</token>
           <bool name="TextScaled">false</bool>
-          <float name="TextSize">14</float>
+          <float name="TextSize">19</float>
           <Color3 name="TextStrokeColor3">
-            <R>0</R>
-            <G>0</G>
-            <B>0</B>
+            <R>0.05</R>
+            <G>0.035</G>
+            <B>0.02</B>
           </Color3>
-          <float name="TextStrokeTransparency">1</float>
+          <float name="TextStrokeTransparency">0.45</float>
           <float name="TextTransparency">0</float>
           <token name="TextTruncate">0</token>
-          <bool name="TextWrapped">false</bool>
+          <bool name="TextWrapped">true</bool>
           <token name="TextXAlignment">2</token>
           <token name="TextYAlignment">1</token>
           <UniqueId name="UniqueId">501faa1cf44134810ad2422100000aa4</UniqueId>

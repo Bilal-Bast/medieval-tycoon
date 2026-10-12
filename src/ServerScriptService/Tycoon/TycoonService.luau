@@ -44,14 +44,45 @@ local function getClaimLabel(plot)
 end
 
 local function setClaimDisplay(plot, state, player)
-	local claimPad = plot:FindFirstChild("ClaimPad")
-	if claimPad and claimPad:IsA("BasePart") then
-		claimPad.BrickColor = player and BrickColor.new("Bright green") or state.unclaimedColor
+	local banner = plot:FindFirstChild("ClaimBanner", true)
+	if banner and banner:IsA("BasePart") then
+		banner.Color = player and Color3.fromRGB(83, 119, 75) or Color3.fromRGB(143, 64, 46)
 	end
 
+	local claimPad = plot:FindFirstChild("ClaimPad")
+	local billboard = claimPad and claimPad:FindFirstChildOfClass("BillboardGui")
 	local label = getClaimLabel(plot)
 	if label then
-		label.Text = player and (player.Name .. "'s Tycoon") or state.unclaimedText
+		if player then
+			label.Text = string.format(
+				'<font size="18"><b>%s\'s</b></font>\n<font size="14">Kingdom</font>',
+				player.Name
+			)
+			label.BackgroundTransparency = 0.3
+			if billboard then
+				billboard.MaxDistance = 42
+			end
+		else
+			label.Text = state.unclaimedText
+			label.BackgroundTransparency = 0.12
+			if billboard then
+				billboard.MaxDistance = 55
+			end
+		end
+	end
+end
+
+local function setPurchaseSignVisible(plot, buttonName, visible)
+	local signName = buttonName == "BuyDropperButton" and "Dropper1PurchaseSign" or "Dropper2PurchaseSign"
+	local sign = plot:FindFirstChild(signName, true)
+	if not sign then
+		return
+	end
+
+	for _, descendant in ipairs(sign:GetDescendants()) do
+		if descendant:IsA("BasePart") then
+			descendant.Transparency = visible and 0 or 1
+		end
 	end
 end
 
@@ -60,10 +91,11 @@ local function setButtonVisible(button, visible)
 		return
 	end
 
-	button.Transparency = visible and 0 or 1
-	button.CanCollide = visible
+	button.Transparency = 1
+	button.CanCollide = false
 	button.CanTouch = visible
-	button.CanQuery = visible
+	button.CanQuery = false
+	setPurchaseSignVisible(button.Parent, button.Name, visible)
 
 	local billboard = button:FindFirstChildOfClass("BillboardGui")
 	if billboard then
@@ -107,8 +139,8 @@ local function createMoneyBlock(plot, player, dropPoint, upgrade)
 	local block = Instance.new("Part")
 	block.Name = "MoneyBlock"
 	block.Size = Config.MoneyBlockSize
-	block.Material = Config.MoneyBlockMaterial
-	block.BrickColor = Config.MoneyBlockColor
+	block.Material = upgrade.ResourceMaterial or Config.MoneyBlockMaterial
+	block.Color = upgrade.ResourceColor or Config.MoneyBlockColor.Color
 	block.Anchored = false
 	block.CanCollide = true
 	block.CFrame = dropPoint.CFrame
@@ -195,6 +227,7 @@ local function onPurchaseTouched(plot, state, upgradeName, button, hit)
 	cash.Value -= upgrade.Cost
 	state.purchased[upgradeName] = true
 	disconnectPurchaseConnection(state, upgradeName)
+	setPurchaseSignVisible(plot, upgrade.ButtonName, false)
 	button:Destroy()
 
 	if upgradeName == "Dropper1" then
@@ -320,8 +353,7 @@ local function createPlot(plotName, offset)
 		claimConnection = nil,
 		collectorConnection = nil,
 		conveyorConnection = nil,
-		unclaimedColor = claimPad and claimPad.BrickColor or BrickColor.new("Medium stone grey"),
-		unclaimedText = claimLabel and claimLabel.Text or "CLAIM TYCOON",
+		unclaimedText = claimLabel and claimLabel.Text or "CLAIM KINGDOM",
 	}
 	plotStates[plot] = state
 
