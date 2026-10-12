@@ -1,0 +1,15 @@
+{
+  "className": "ChatWindowConfiguration",
+  "properties": {
+    "SerializedOverrides": {
+      "BinaryString": ""
+    },
+    "TextSize": 18.0,
+    "FontFace": {
+      "family": "rbxasset://fonts/families/BuilderSans.json",
+      "weight": "Medium",
+      "style": "Normal",
+      "cachedFaceId": "rbxasset://fonts/BuilderSans-Medium.otf"
+    }
+  }
+}
