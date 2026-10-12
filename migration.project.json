@@ -1,0 +1,59 @@
+{
+  "name": "medieval-tycoon-migration",
+  "syncbackRules": {
+    "syncCurrentCamera": false,
+    "syncUnscriptable": true,
+    "ignoreReferents": false
+  },
+  "tree": {
+    "$className": "DataModel",
+    "Workspace": {
+      "$path": "src/Workspace"
+    },
+    "Lighting": {
+      "$path": "src/Lighting"
+    },
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService"
+    },
+    "ServerStorage": {
+      "$path": "src/ServerStorage"
+    },
+    "StarterGui": {
+      "$path": "src/StarterGui"
+    },
+    "StarterPack": {
+      "$path": "src/StarterPack"
+    },
+    "StarterPlayer": {
+      "$path": "src/StarterPlayer"
+    },
+    "SoundService": {
+      "$path": "src/SoundService"
+    },
+    "Teams": {
+      "$path": "src/Teams"
+    },
+    "Chat": {
+      "$path": "src/Chat"
+    },
+    "TextChatService": {
+      "$path": "src/TextChatService"
+    },
+    "LocalizationService": {
+      "$path": "src/LocalizationService"
+    },
+    "MaterialService": {
+      "$path": "src/MaterialService"
+    },
+    "TestService": {
+      "$path": "src/TestService"
+    }
+  }
+}
