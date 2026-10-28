@@ -15,7 +15,7 @@
       <float name="BottomParamB">0.5</float>
       <token name="BottomSurface">0</token>
       <token name="BottomSurfaceInput">0</token>
-      <CoordinateFrame name="CFrame"><X>291.514719</X><Y>1.000000</Y><Z>-291.514719</Z><R00>0.707107</R00><R01>0.000000</R01><R02>-0.707107</R02><R10>0.000000</R10><R11>1.000000</R11><R12>0.000000</R12><R20>0.707107</R20><R21>0.000000</R21><R22>0.707107</R22></CoordinateFrame>
+      <CoordinateFrame name="CFrame"><X>500.0</X><Y>1</Y><Z>-287.0</Z><R00>1.000000</R00><R01>0.000000</R01><R02>0.000000</R02><R10>0.000000</R10><R11>1.000000</R11><R12>0.000000</R12><R20>-0.000000</R20><R21>0.000000</R21><R22>1.000000</R22></CoordinateFrame>
       <bool name="CanCollide">true</bool>
       <bool name="CanQuery">true</bool>
       <bool name="CanTouch">true</bool>

@@ -1,0 +1,5386 @@
+{
+  "className": "Model",
+  "properties": {
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "DistrictPlaza",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -410.0,
+              1.02,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.43,
+          0.37,
+          0.28
+        ],
+        "Material": "Ground",
+        "Size": [
+          40.0,
+          0.12,
+          32.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_MainGateToTown_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.5,
+              1.12,
+              0.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          17.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_MainGateToTown_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -277.0,
+              1.12,
+              -37.5
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          75.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_MainGateToTown_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -345.5,
+              1.12,
+              -75.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_TownCrossroad_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.12,
+              2.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          155.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBarracks_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -407.0,
+              1.12,
+              -37.5
+            ],
+            "orientation": [
+              [
+                0.9830202487654599,
+                0.0,
+                0.18349711310288572
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -0.18349711310288572,
+                0.0,
+                0.9830202487654599
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          76.2954782408499
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToLumber_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.12,
+              85.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToLumber_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -388.5,
+              1.12,
+              90.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          51.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToFarm_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -384.5,
+              1.12,
+              -75.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          59.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_CastleRoad_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.12,
+              73.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          14.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_CastleRoad_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -484.5,
+              1.12,
+              66.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          141.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_CastleRoad_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -555.0,
+              1.12,
+              33.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          66.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_CastleRoad_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -555.0,
+              1.12,
+              -32.5
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          65.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToQuarry_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.12,
+              71.5
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          17.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToQuarry_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -547.0,
+              1.12,
+              63.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          266.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToQuarry_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -680.0,
+              1.12,
+              100.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          75.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToQuarry_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -673.0,
+              1.12,
+              138.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          14.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.12,
+              -70.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -457.0,
+              1.12,
+              -65.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          86.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -500.0,
+              1.12,
+              -140.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                1.2246467991473532e-16
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          150.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -527.5,
+              1.12,
+              -215.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          55.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -613.0,
+              1.12,
+              -215.0
+            ],
+            "orientation": [
+              [
+                -1.8369701987210297e-16,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -1.8369701987210297e-16
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          116.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -671.0,
+              1.12,
+              -170.5
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          89.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Road_RoadToBlacksmith_6",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": false,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -668.0,
+              1.12,
+              -126.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.43,
+          0.35
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          12.0,
+          0.28,
+          6.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TownJunction",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.28,
+              -75.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.42,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          16.0,
+          0.15,
+          16.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WestJunction",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -414.0,
+              1.28,
+              80.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.42,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          16.0,
+          0.15,
+          16.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalJunction",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -555.0,
+              1.28,
+              66.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.42,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          16.0,
+          0.15,
+          16.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -355.0,
+              3,
+              105.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -355.0,
+              4.6,
+              105.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -608.0,
+              3,
+              67.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -608.0,
+              4.6,
+              67.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -608.0,
+              3,
+              -67.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -608.0,
+              4.6,
+              -67.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -348.0,
+              3,
+              -75.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -348.0,
+              4.6,
+              -75.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -392.0,
+              3,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -392.0,
+              4.6,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "CastleRoadSignPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -564.0,
+              3,
+              -65.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.18,
+          0.09
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "CastleRoadSignBoard",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -564.0,
+              4.6,
+              -65.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.34,
+          0.19
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          8.5,
+          1.4,
+          0.5
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatePillar",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.0,
+              5,
+              21.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.41
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          10.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GateTorch",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.0,
+              10.5,
+              21.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          0.48,
+          0.12
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatePillar",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.0,
+              5,
+              -21.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.41
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          10.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GateTorch",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.0,
+              10.5,
+              -21.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          0.48,
+          0.12
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.2,
+          1.2,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GateLintel",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -268.0,
+              11,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.46,
+          0.43,
+          0.37
+        ],
+        "Material": "Slate",
+        "Size": [
+          48.0,
+          2.4,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmBannerPole",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -269.0,
+              15,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.56,
+          0.42,
+          0.22
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.7,
+          7.0,
+          0.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmBannerCloth",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -269.5,
+              10.5,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.45,
+          0.7
+        ],
+        "Material": "Fabric",
+        "Size": [
+          8.0,
+          8.0,
+          0.25
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmBannerCrest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -269.0,
+              16.3,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.79,
+          0.64,
+          0.32
+        ],
+        "Material": "Metal",
+        "Size": [
+          2.4,
+          2.4,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GateBridge",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -258.0,
+              1.03,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.47,
+          0.41,
+          0.33
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          36.0,
+          0.2,
+          20.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -685.0,
+              4,
+              194.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown0",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -685.0,
+              10,
+              194.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -685.0,
+              4,
+              -194.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -685.0,
+              10,
+              -194.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -315.0,
+              4,
+              194.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -315.0,
+              10,
+              194.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -315.0,
+              4,
+              -194.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -315.0,
+              10,
+              -194.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -500.0,
+              4,
+              206.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -500.0,
+              10,
+              206.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakTrunk5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -500.0,
+              4,
+              -206.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.25,
+          0.16,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          3.0,
+          8.0,
+          3.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BoundaryOakCrown5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -500.0,
+              10,
+              -206.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.22,
+          0.34,
+          0.17
+        ],
+        "Material": "Grass",
+        "Size": [
+          12.0,
+          11.0,
+          12.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Conveyor_Lumber",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -386.0,
+              1.68,
+              148.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.24,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          5.5,
+          0.783,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberRailL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -389.0,
+              2.48,
+              148.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberRailR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -383.0,
+              2.48,
+              148.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Collector_Lumber",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -386.0,
+              3.2,
+              110.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          12.0,
+          6.21,
+          11.0
+        ],
+        "Transparency": 1,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberTreasuryBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -381.0,
+              1.3,
+              99.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.25,
+          0.16
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.0,
+          1.0,
+          7.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberTreasuryChest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -381.0,
+              2.5,
+              99.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.45,
+          0.29,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          7.0,
+          2.2,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberTreasuryBand",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -381.0,
+              2.5,
+              99.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.46,
+          0.18
+        ],
+        "Material": "Metal",
+        "Size": [
+          7.4,
+          0.28,
+          5.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Conveyor_Quarry",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -650.0,
+              1.68,
+              130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.37,
+          0.37
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.5,
+          0.783,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryRailL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -653.0,
+              2.48,
+              130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryRailR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -647.0,
+              2.48,
+              130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Collector_Quarry",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -650.0,
+              3.2,
+              92.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          12.0,
+          6.21,
+          11.0
+        ],
+        "Transparency": 1,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryTreasuryBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              1.3,
+              81.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.25,
+          0.16
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.0,
+          1.0,
+          7.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryTreasuryChest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              2.5,
+              81.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.45,
+          0.29,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          7.0,
+          2.2,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryTreasuryBand",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              2.5,
+              81.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.46,
+          0.18
+        ],
+        "Material": "Metal",
+        "Size": [
+          7.4,
+          0.28,
+          5.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Conveyor_Blacksmith",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -650.0,
+              1.68,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.29,
+          0.31
+        ],
+        "Material": "Metal",
+        "Size": [
+          5.5,
+          0.783,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithRailL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -653.0,
+              2.48,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithRailR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -647.0,
+              2.48,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Collector_Blacksmith",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -650.0,
+              3.2,
+              -168.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          12.0,
+          6.21,
+          11.0
+        ],
+        "Transparency": 1,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithTreasuryBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              1.3,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.25,
+          0.16
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.0,
+          1.0,
+          7.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithTreasuryChest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              2.5,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.45,
+          0.29,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          7.0,
+          2.2,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BlacksmithTreasuryBand",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -645.0,
+              2.5,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.46,
+          0.18
+        ],
+        "Material": "Metal",
+        "Size": [
+          7.4,
+          0.28,
+          5.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Conveyor_Farm",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -331.0,
+              1.68,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.46,
+          0.34,
+          0.16
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          5.5,
+          0.783,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmRailL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -334.0,
+              2.48,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmRailR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -328.0,
+              2.48,
+              -130.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Collector_Farm",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -331.0,
+              3.2,
+              -168.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          12.0,
+          6.21,
+          11.0
+        ],
+        "Transparency": 1,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmTreasuryBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.0,
+              1.3,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.25,
+          0.16
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.0,
+          1.0,
+          7.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmTreasuryChest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.0,
+              2.5,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.45,
+          0.29,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          7.0,
+          2.2,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmTreasuryBand",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.0,
+              2.5,
+              -179.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.46,
+          0.18
+        ],
+        "Material": "Metal",
+        "Size": [
+          7.4,
+          0.28,
+          5.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Conveyor_Barracks",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -293.0,
+              1.68,
+              92.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.3,
+          0.28
+        ],
+        "Material": "Metal",
+        "Size": [
+          5.5,
+          0.783,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRailL",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -296.0,
+              2.48,
+              92.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRailR",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -290.0,
+              2.48,
+              92.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.2,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.5,
+          1.35,
+          72.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "Collector_Barracks",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": true,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -293.0,
+              3.2,
+              54.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          1,
+          1,
+          1
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          12.0,
+          6.21,
+          11.0
+        ],
+        "Transparency": 1,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksTreasuryBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -288.0,
+              1.3,
+              43.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.25,
+          0.16
+        ],
+        "Material": "Wood",
+        "Size": [
+          9.0,
+          1.0,
+          7.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksTreasuryChest",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -288.0,
+              2.5,
+              43.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.45,
+          0.29,
+          0.13
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          7.0,
+          2.2,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksTreasuryBand",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -288.0,
+              2.5,
+              43.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.46,
+          0.18
+        ],
+        "Material": "Metal",
+        "Size": [
+          7.4,
+          0.28,
+          5.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "LumberEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -428.0,
+              0.82,
+              145.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.43,
+          0.23
+        ],
+        "Material": "Grass",
+        "Size": [
+          80.0,
+          0.22,
+          90.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "QuarryEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -600.0,
+              0.82,
+              138.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.37,
+          0.37,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          128.0,
+          0.22,
+          132.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "ForgeEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -584.0,
+              0.82,
+              -126.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.34,
+          0.29
+        ],
+        "Material": "Grass",
+        "Size": [
+          120.0,
+          0.22,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FarmEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -410.0,
+              0.82,
+              -136.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.43,
+          0.23
+        ],
+        "Material": "Grass",
+        "Size": [
+          120.0,
+          0.22,
+          130.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -350.0,
+              0.82,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.43,
+          0.23
+        ],
+        "Material": "Grass",
+        "Size": [
+          130.0,
+          0.22,
+          80.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalEstate",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -619.0,
+              0.82,
+              -0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.35,
+          0.32
+        ],
+        "Material": "Grass",
+        "Size": [
+          122.0,
+          0.22,
+          132.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    }
+  ]
+}
