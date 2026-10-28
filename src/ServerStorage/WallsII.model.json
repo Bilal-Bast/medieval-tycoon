@@ -30,527 +30,7 @@
   },
   "children": [
     {
-      "name": "WestWall",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -58.0,
-              5.5,
-              0.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.34902,
-          0.227451,
-          0.141176
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          1.5,
-          9.0,
-          116.0
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "WestCoping",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -58.0,
-              11.2,
-              0.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          2.2,
-          0.7,
-          116.7
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "WestButtress-49",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -58.0,
-              5.5,
-              -49.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "WestButtress-29",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -58.0,
-              5.5,
-              -29.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "WestButtress-9",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -58.0,
-              5.5,
-              -9.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "EastWall",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              58.0,
-              5.5,
-              0.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.34902,
-          0.227451,
-          0.141176
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          1.5,
-          9.0,
-          116.0
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "EastCoping",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              58.0,
-              11.2,
-              0.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          2.2,
-          0.7,
-          116.7
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "EastButtress-49",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              58.0,
-              5.5,
-              -49.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "EastButtress-29",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              58.0,
-              5.5,
-              -29.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "EastButtress-9",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              58.0,
-              5.5,
-              -9.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "RearWall",
+      "name": "WallRear",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -562,151 +42,48 @@
           "CFrame": {
             "position": [
               0.0,
-              5.5,
-              -58.0
+              5.0,
+              -232.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.34902,
-          0.227451,
-          0.141176
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          116.0,
-          9.0,
-          1.5
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "RearCoping",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              0.0,
-              11.2,
-              -58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          116.7,
-          0.7,
-          2.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "RearButtress-49",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -49.0,
-              5.5,
-              -58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          2.1,
+          464.0,
           10.0,
-          2.1
+          4.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "RearButtress-29",
+      "name": "WallWest",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -717,48 +94,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -29.0,
-              5.5,
-              -58.0
+              -232.0,
+              5.0,
+              0.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.188235,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          2.1,
+          4.0,
           10.0,
-          2.1
+          464.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "RearButtress-9",
+      "name": "WallEast",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -769,48 +147,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -9.0,
-              5.5,
-              -58.0
+              232.0,
+              5.0,
+              0.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.188235,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          2.1,
+          4.0,
           10.0,
-          2.1
+          464.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "FrontWWall",
+      "name": "WallFrontWest",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -821,152 +200,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -33.0,
-              5.5,
-              58.0
+              -127.0,
+              5.0,
+              232.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.34902,
-          0.227451,
-          0.141176
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          50.0,
-          9.0,
-          1.5
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontWCoping",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -33.0,
-              11.2,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          50.7,
-          0.7,
-          2.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontWButtress-49",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -49.0,
-              5.5,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          2.1,
+          210.0,
           10.0,
-          2.1
+          4.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "FrontWButtress-29",
+      "name": "WallFrontEast",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -977,48 +253,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -29.0,
-              5.5,
-              58.0
+              127.0,
+              5.0,
+              232.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.188235,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          2.1,
+          210.0,
           10.0,
-          2.1
+          4.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "FrontWButtress-9",
+      "name": "GatehousePier",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1029,516 +306,261 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -9.0,
-              5.5,
-              58.0
+              -22.0,
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontEWall",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              33.0,
-              5.5,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.34902,
-          0.227451,
-          0.141176
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          50.0,
-          9.0,
-          1.5
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontECoping",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              33.0,
-              11.2,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "WoodPlanks",
-        "Size": [
-          50.7,
-          0.7,
-          2.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontEButtress17",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              17.0,
-              5.5,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontEButtress37",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              37.0,
-              5.5,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "FrontEButtress57",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              57.0,
-              5.5,
-              58.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.1,
-          10.0,
-          2.1
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "GatePost-8",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -8.0,
-              6.5,
-              57.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.4,
-          11.0,
-          2.4
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "GatePost8",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              8.0,
-              6.5,
-              57.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          2.4,
-          11.0,
-          2.4
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "GateLintel",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              0.0,
-              12.0,
-              57.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.188235,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          18.0,
-          1.6,
-          2.8
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "RaisedPortcullis",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              0.0,
-              8.0,
-              56.4
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.286275,
-          0.231373,
-          0.168627
-        ],
-        "Material": "Metal",
-        "Size": [
-          12.0,
+          0.52,
           0.5,
-          0.6
+          0.45
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          7.0,
+          20.0,
+          8.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "GateBar-4",
+      "name": "GatehouseMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -22.0,
+              22.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          8.0,
+          4.0,
+          9.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatehousePier",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              10.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.52,
+          0.5,
+          0.45
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          7.0,
+          20.0,
+          8.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatehouseMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              22.0,
+              22.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          8.0,
+          4.0,
+          9.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GateArchHeader",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              22.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          54.0,
+          4.0,
+          9.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatePortcullisBar",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1549,48 +571,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -4.0,
-              6.6,
-              56.4
+              -18.0,
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.231373,
-          0.168627
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.0,
-          0.35
+          0.45,
+          20.0,
+          0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "GateBar-2",
+      "name": "GatePortcullisBar",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1601,48 +624,102 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -2.0,
-              6.6,
-              56.4
+              -12.0,
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.231373,
-          0.168627
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.0,
-          0.35
+          0.45,
+          20.0,
+          0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "GateBar0",
+      "name": "GatePortcullisBar",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -6.0,
+              10.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.45,
+          20.0,
+          0.45
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "GatePortcullisBar",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1654,47 +731,48 @@
           "CFrame": {
             "position": [
               0.0,
-              6.6,
-              56.4
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.231373,
-          0.168627
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.0,
-          0.35
+          0.45,
+          20.0,
+          0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "GateBar2",
+      "name": "GatePortcullisBar",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1705,48 +783,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              2.0,
-              6.6,
-              56.4
+              6.0,
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.231373,
-          0.168627
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.0,
-          0.35
+          0.45,
+          20.0,
+          0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "GateBar4",
+      "name": "GatePortcullisBar",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1757,45 +836,4975 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              4.0,
-              6.6,
-              56.4
+              12.0,
+              10.0,
+              212.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.286275,
-          0.231373,
-          0.168627
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.0,
-          0.35
+          0.45,
+          20.0,
+          0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
+    },
+    {
+      "name": "GatePortcullisBar",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              18.0,
+              10.0,
+              212.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.45,
+          20.0,
+          0.45
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -220.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -200.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -180.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -160.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -140.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -120.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -100.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -80.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -60.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -40.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -20.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              40.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              60.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              80.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              100.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              120.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              140.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              160.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              180.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              200.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              220.0,
+              11.0,
+              -232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -220.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -200.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -180.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -160.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -140.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -120.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -100.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -80.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -60.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -40.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -20.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              20.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              40.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              60.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              80.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              100.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              120.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              140.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              160.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              180.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              200.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              220.0,
+              11.0,
+              232.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          4.0,
+          2.0,
+          5.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -220.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -200.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -180.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -140.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -120.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -100.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -80.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -60.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -40.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              -20.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              20.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              40.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              60.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              80.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              100.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              120.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              140.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              180.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              200.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -232.0,
+              11.0,
+              220.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -220.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -200.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -180.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -140.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -120.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -100.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -80.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -60.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -40.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              -20.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              0.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              20.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              40.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              60.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              80.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              100.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              120.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              140.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              180.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              200.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WallMerlon",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              232.0,
+              11.0,
+              220.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          5.0,
+          2.0,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
     }
   ]
 }

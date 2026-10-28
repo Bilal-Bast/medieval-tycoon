@@ -30,7 +30,7 @@
   },
   "children": [
     {
-      "name": "TrainingYard",
+      "name": "BarracksCompoundTurf",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -41,308 +41,526 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -39.0,
-              1.13,
-              -39.0
+              0.0,
+              0.82,
+              150.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.458824,
-          0.388235,
-          0.27451
+          0.31,
+          0.44,
+          0.24
         ],
-        "Material": "Ground",
+        "Material": "Grass",
         "Size": [
-          11.0,
-          0.22,
-          10.0
+          130.0,
+          0.3,
+          80.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "RackPost",
+      "name": "BarracksPerimeterPost",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              -43.0,
+              -62.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksPerimeterPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -62.0,
+              3.0,
+              185.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksPerimeterRail",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -62.0,
               2.5,
-              -42.0
+              151.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.317647,
-          0.219608,
-          0.121569
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.5,
-          3.0,
-          0.5
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "RackTop",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -41.0,
-              3.7,
-              -42.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.317647,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          4.4,
           0.45,
-          0.5
+          1.0,
+          66.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "ShieldRack",
+      "name": "BarracksPerimeterPost",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              -35.0,
-              2.8,
-              -42.0
+              62.0,
+              3.0,
+              118.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.443137,
-          0.313725,
-          0.172549
+          0.27,
+          0.15,
+          0.08
         ],
-        "Material": "WoodPlanks",
+        "Material": "Wood",
         "Size": [
-          2.2,
-          2.6,
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksPerimeterPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              62.0,
+              3.0,
+              185.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          4.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksPerimeterRail",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              62.0,
+              2.5,
+              151.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.45,
+          1.0,
+          66.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksPerimeterRail",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              2.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          124.0,
+          1.0,
           0.45
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "TrainingBannerPole",
+      "name": "BarracksPerimeterRail",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              -34.0,
-              3.0,
-              -43.0
+              0.0,
+              2.5,
+              185.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.333333,
-          0.219608,
-          0.12549
+          0.42,
+          0.27,
+          0.15
         ],
         "Material": "Wood",
         "Size": [
-          0.35,
-          4.5,
+          124.0,
+          1.0,
+          0.45
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFoundation",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              1.2,
+              154.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
           0.35
         ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "TrainingBannerCloth",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -33.0,
-              3.0,
-              -43.0
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.247059,
-          0.341176,
-          0.486275
-        ],
-        "Material": "Fabric",
+        "Material": "Slate",
         "Size": [
-          2.0,
-          2.8,
-          0.16
+          90.0,
+          0.7,
+          44.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "TrainingBannerBar",
+      "name": "BarracksFloor",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -353,48 +571,1798 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -33.0,
-              4.5,
-              -43.0
+              0.0,
+              1.62,
+              154.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.756863,
-          0.607843,
-          0.337255
+          0.49,
+          0.35,
+          0.21
         ],
-        "Material": "Metal",
+        "Material": "WoodPlanks",
+        "Size": [
+          87.0,
+          0.16,
+          41.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksLongWall",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -45.0,
+              6.0,
+              154.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.2,
+          9.0,
+          44.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksLongWall",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              45.0,
+              6.0,
+              154.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.2,
+          9.0,
+          44.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRearWall",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              6.0,
+              132.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          90.0,
+          9.0,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -45.0,
+              6.0,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.9,
+          9.0,
+          0.9
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -8.0,
+              6.0,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.9,
+          9.0,
+          0.9
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              8.0,
+              6.0,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.9,
+          9.0,
+          0.9
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              45.0,
+              6.0,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.9,
+          9.0,
+          0.9
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontWall",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -26.0,
+              5.8,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          37.0,
+          8.5,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontWall",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              26.0,
+              5.8,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          37.0,
+          8.5,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksFrontBeam",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              10.5,
+              176.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          90.0,
+          1.3,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRoofSlope",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.22,
+          0.18
+        ],
+        "Material": "Slate",
+        "Size": [
+          96.0,
+          1.1,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -40.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -24.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -8.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              8.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              24.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              40.0,
+              13.6,
+              142.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                -0.42261826174069944
+              ],
+              [
+                0,
+                0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRoofSlope",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.22,
+          0.18
+        ],
+        "Material": "Slate",
+        "Size": [
+          96.0,
+          1.1,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -40.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -24.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -8.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              8.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              24.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRafter",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              40.0,
+              13.6,
+              165.5
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.9063077870366499,
+                0.42261826174069944
+              ],
+              [
+                0,
+                -0.42261826174069944,
+                0.9063077870366499
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          1.5,
+          26.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksRidge",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              19.0,
+              154.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          98.0,
+          1.4,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingCanopyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -58.0,
+              5.0,
+              130.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          8.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingCanopyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -58.0,
+              5.0,
+              160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          8.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingCanopyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              58.0,
+              5.0,
+              130.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          8.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingCanopyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              58.0,
+              5.0,
+              160.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.8,
+          8.0,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "CoveredTrainingRoof",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              9.3,
+              145.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.28,
+          0.22,
+          0.18
+        ],
+        "Material": "Slate",
+        "Size": [
+          120.0,
+          1.0,
+          33.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -42.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.6,
+          4.0,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyTorso",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -42.0,
+              4.2,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
         "Size": [
           2.2,
-          0.2,
-          0.3
+          2.4,
+          0.8
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "PracticeSpear0",
+      "name": "TrainingDummyArms",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -42.0,
+              4.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          4.6,
+          0.55,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyHead",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -406,47 +2374,207 @@
           "CFrame": {
             "position": [
               -42.0,
-              2.2,
-              -42.0
+              6.0,
+              118.0
             ],
             "orientation": [
               [
-                0.997564,
-                -0.069756,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.069756,
-                0.997564,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.647059,
-          0.482353,
-          0.282353
+          0.68,
+          0.55,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          1.1,
+          1.5,
+          1.5
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -21.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
         ],
         "Material": "Wood",
         "Size": [
-          0.22,
+          0.6,
           4.0,
-          0.22
+          0.6
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "PracticeSpear1",
+      "name": "TrainingDummyTorso",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -21.0,
+              4.2,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          2.2,
+          2.4,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyArms",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -21.0,
+              4.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          4.6,
+          0.55,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyHead",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -457,48 +2585,208 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -39.3,
-              2.2,
-              -42.0
+              -21.0,
+              6.0,
+              118.0
             ],
             "orientation": [
               [
-                0.997564,
-                -0.069756,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.069756,
-                0.997564,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.647059,
-          0.482353,
-          0.282353
+          0.68,
+          0.55,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          1.1,
+          1.5,
+          1.5
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
         ],
         "Material": "Wood",
         "Size": [
-          0.22,
+          0.6,
           4.0,
-          0.22
+          0.6
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "PracticeSpear2",
+      "name": "TrainingDummyTorso",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              4.2,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          2.2,
+          2.4,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyArms",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              4.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          4.6,
+          0.55,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyHead",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -509,45 +2797,1530 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -36.6,
-              2.2,
-              -42.0
+              0.0,
+              6.0,
+              118.0
             ],
             "orientation": [
               [
-                0.997564,
-                -0.069756,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.069756,
-                0.997564,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          0.647059,
-          0.482353,
-          0.282353
+          0.68,
+          0.55,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          1.1,
+          1.5,
+          1.5
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              21.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
         ],
         "Material": "Wood",
         "Size": [
-          0.22,
+          0.6,
           4.0,
-          0.22
+          0.6
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyTorso",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              21.0,
+              4.2,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          2.2,
+          2.4,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyArms",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              21.0,
+              4.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          4.6,
+          0.55,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyHead",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              21.0,
+              6.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.68,
+          0.55,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          1.1,
+          1.5,
+          1.5
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              42.0,
+              3.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.6,
+          4.0,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyTorso",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              42.0,
+              4.2,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.49,
+          0.35,
+          0.21
+        ],
+        "Material": "WoodPlanks",
+        "Size": [
+          2.2,
+          2.4,
+          0.8
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyArms",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              42.0,
+              4.5,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          4.6,
+          0.55,
+          0.6
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingDummyHead",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              42.0,
+              6.0,
+              118.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.68,
+          0.55,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          1.1,
+          1.5,
+          1.5
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WeaponRack",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.0,
+              3.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          4.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -39.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -33.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WeaponRack",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -12.0,
+              3.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          4.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -12.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -9.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WeaponRack",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.0,
+              3.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          4.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              9.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              12.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "WeaponRack",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.0,
+              3.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          4.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              33.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "TrainingSpear",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              39.0,
+              5.0,
+              166.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.18,
+          4.0,
+          0.18
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksWatchPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -54.0,
+              7.0,
+              185.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          12.0,
+          8.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksWatchPost",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              54.0,
+              7.0,
+              185.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.42,
+          0.27,
+          0.15
+        ],
+        "Material": "Wood",
+        "Size": [
+          8.0,
+          12.0,
+          8.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "BarracksQuartermaster",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              52.0,
+              4.0,
+              145.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.38,
+          0.35
+        ],
+        "Material": "Slate",
+        "Size": [
+          18.0,
+          6.0,
+          16.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "ArmoryDoor",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              42.0,
+              4.0,
+              145.0
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.27,
+          0.15,
+          0.08
+        ],
+        "Material": "Wood",
+        "Size": [
+          1.0,
+          6.0,
+          6.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
     },
     {
       "name": "DropPoint",
@@ -561,45 +4334,46 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -39.0,
-              4.7,
-              -30.0
+              -108.0,
+              8.4,
+              207.0
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                1,
+                0,
+                0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0,
+                0,
+                1
               ]
             ]
           }
         },
         "Color": [
-          1.0,
-          1.0,
-          1.0
+          0.67,
+          0.49,
+          0.22
         ],
-        "Material": "Plastic",
+        "Material": "SmoothPlastic",
         "Size": [
-          0.8,
-          0.8,
-          0.8
+          2.0,
+          0.2,
+          2.0
         ],
         "Transparency": 1,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     }
   ]
 }
