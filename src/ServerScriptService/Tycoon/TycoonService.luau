@@ -5,6 +5,8 @@ local Debris = game:GetService("Debris")
 local TweenService = game:GetService("TweenService")
 
 local Config = require(script.Parent.Config)
+local KingdomNPCService = require(script.Parent.KingdomNPCService)
+local WeaponService = require(script.Parent.WeaponService)
 local TycoonService = {}
 
 local tycoonsFolder = Workspace:WaitForChild("Tycoons")
@@ -36,6 +38,18 @@ local function validateProgressionConfig()
 			assert(upgrade.IncomePerDrop > 0 and upgrade.DropInterval > 0, "Invalid production values: " .. upgradeId)
 			local asset = ServerStorage:FindFirstChild(upgrade.AssetName)
 			assert(asset and asset:IsA("Model") and asset:FindFirstChild("DropPoint", true), "Missing production model/drop point: " .. upgradeId)
+			local corridor = Config.ProductionCorridors[upgrade.District]
+			assert(corridor, "Missing production corridor: " .. upgrade.District)
+			local dropPoints = {}
+			for _, descendant in ipairs(asset:GetDescendants()) do
+				if descendant.Name == "DropPoint" and descendant:IsA("BasePart") then table.insert(dropPoints, descendant) end
+			end
+			assert(#dropPoints == 1, "Each production snapshot must contain one active DropPoint: " .. upgradeId)
+			local point = dropPoints[1].Position
+			assert(math.abs(point.X - corridor.DropXs[upgrade.Level]) < 0.05
+				and math.abs(point.Y - corridor.DropY) < 0.05
+				and math.abs(point.Z - corridor.LaneCenter.Z) < 0.05,
+				"Producer is not aligned above its reserved transport lane: " .. upgradeId)
 		elseif upgrade.Category == "Structure" then
 			assert(Config.StructuralGroups[upgrade.VisualGroup], "Unknown structural group: " .. upgradeId)
 			local asset = ServerStorage:FindFirstChild(upgrade.AssetName)
@@ -59,16 +73,127 @@ local function getPlayerFromHit(hit)
 	return character and Players:GetPlayerFromCharacter(character) or nil
 end
 
+local function formatCurrency(amount)
+	local reversed = tostring(math.floor(amount)):reverse()
+	return (reversed:gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""))
+end
+
 local function getClaimLabel(plot)
 	local pad = plot:FindFirstChild("ClaimPad")
 	local billboard = pad and pad:FindFirstChildOfClass("BillboardGui")
-	return billboard and billboard:FindFirstChildWhichIsA("TextLabel", true)
+	return billboard and billboard:FindFirstChild("ClaimStatus", true)
+end
+
+local function makeBillboardText(parent, name, position, size, text, font, textSize, color)
+	local label = Instance.new("TextLabel")
+	label.Name = name
+	label.Position = position
+	label.Size = size
+	label.BackgroundTransparency = 1
+	label.Font = font
+	label.Text = text
+	label.TextColor3 = color
+	label.TextSize = textSize
+	label.TextXAlignment = Enum.TextXAlignment.Center
+	label.TextYAlignment = Enum.TextYAlignment.Center
+	label.TextTruncate = Enum.TextTruncate.AtEnd
+	label.TextWrapped = false
+	label.Parent = parent
+	return label
+end
+
+local function createPurchaseBillboard(button, upgrade, cost, style)
+	local billboard = Instance.new("BillboardGui")
+	billboard.Name = "PurchaseBillboard"
+	billboard.Adornee = button
+	billboard.Size = style.BillboardSize
+	billboard.StudsOffset = Vector3.zero
+	billboard.StudsOffsetWorldSpace = Vector3.new(0, 3.5, 0)
+	billboard.AlwaysOnTop = false
+	billboard.LightInfluence = 0
+	billboard.MaxDistance = Config.PurchaseBillboardMaxDistance
+	billboard.Parent = button
+
+	local panel = Instance.new("Frame")
+	panel.Name = "Card"
+	panel.Size = UDim2.fromScale(1, 1)
+	panel.BackgroundColor3 = Color3.fromRGB(34, 27, 21)
+	panel.BackgroundTransparency = 0.035
+	panel.BorderSizePixel = 0
+	panel.Parent = billboard
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(0, 8)
+	corner.Parent = panel
+	local outline = Instance.new("UIStroke")
+	outline.Color = Color3.fromRGB(191, 145, 56)
+	outline.Thickness = 1.8
+	outline.Transparency = 0.04
+	outline.Parent = panel
+
+	local action = upgrade.Level == 1 and "NEW ROYAL PROJECT" or "KINGDOM UPGRADE"
+	local level = ({ "I", "II", "III", "IV" })[upgrade.Level] or tostring(upgrade.Level)
+	makeBillboardText(panel, "Action", UDim2.fromScale(0.04, 0.04), UDim2.new(0.92, 0, 0.22, 0),
+		action, Enum.Font.GothamBold, 12, Color3.fromRGB(226, 183, 91))
+	makeBillboardText(panel, "UpgradeName", UDim2.fromScale(0.04, 0.27), UDim2.new(0.92, 0, 0.38, 0),
+		upgrade.DisplayName, Enum.Font.Garamond, 23, Color3.fromRGB(255, 245, 219))
+	makeBillboardText(panel, "Price", UDim2.fromScale(0.04, 0.68), UDim2.new(0.92, 0, 0.26, 0),
+		string.format("LEVEL %s   •   %s GOLD", level, formatCurrency(cost)),
+		Enum.Font.GothamBold, 14, Color3.fromRGB(246, 211, 126))
+end
+
+local function prepareClaimBillboard(plot)
+	local pad = plot:FindFirstChild("ClaimPad")
+	local billboard = pad and pad:FindFirstChildOfClass("BillboardGui")
+	if not billboard then return end
+
+	billboard.Name = "KingdomClaimBillboard"
+	billboard.Adornee = pad
+	billboard.Size = UDim2.fromOffset(260, 102)
+	billboard.StudsOffset = Vector3.zero
+	billboard.StudsOffsetWorldSpace = Vector3.zero
+	billboard.AlwaysOnTop = true
+	billboard.LightInfluence = 0
+	billboard.MaxDistance = 100
+	billboard.ClipsDescendants = false
+	for _, child in ipairs(billboard:GetChildren()) do child:Destroy() end
+
+	local index = tonumber(plot.Name:match("(%d+)$")) or 0
+	local accent = Config.RealmColors[plot.Name] or Color3.fromRGB(184, 145, 78)
+	local panel = Instance.new("Frame")
+	panel.Name = "Plaque"
+	panel.Size = UDim2.fromScale(1, 1)
+	panel.BackgroundColor3 = Color3.fromRGB(35, 27, 21)
+	panel.BackgroundTransparency = 0.04
+	panel.BorderSizePixel = 0
+	panel.Parent = billboard
+	local corner = Instance.new("UICorner")
+	corner.CornerRadius = UDim.new(0, 9)
+	corner.Parent = panel
+	local outline = Instance.new("UIStroke")
+	outline.Color = accent
+	outline.Thickness = 2
+	outline.Transparency = 0.08
+	outline.Parent = panel
+	local inset = Instance.new("UIPadding")
+	inset.PaddingTop = UDim.new(0, 6)
+	inset.PaddingBottom = UDim.new(0, 5)
+	inset.PaddingLeft = UDim.new(0, 12)
+	inset.PaddingRight = UDim.new(0, 12)
+	inset.Parent = panel
+	makeBillboardText(panel, "RealmNumber", UDim2.fromScale(0, 0), UDim2.new(1, 0, 0.22, 0),
+		string.format("✦  REALM %02d  ✦", index), Enum.Font.GothamBold, 13, accent)
+	makeBillboardText(panel, "ClaimStatus", UDim2.new(0, 0, 0.24, 0), UDim2.new(1, 0, 0.43, 0),
+		"UNCLAIMED KINGDOM", Enum.Font.Garamond, 25, Color3.fromRGB(250, 239, 211))
+	makeBillboardText(panel, "ClaimPrompt", UDim2.new(0, 0, 0.70, 0), UDim2.new(1, 0, 0.24, 0),
+		"TOUCH SEAL TO CLAIM", Enum.Font.GothamMedium, 13, Color3.fromRGB(227, 209, 174))
 end
 
 local function setClaimDisplay(plot, state, player)
-	local banner = plot:FindFirstChild("ClaimBanner", true) or plot:FindFirstChild("KingdomStandardCloth", true)
+	local banner = plot:FindFirstChild("ClaimBanner", true)
+		or plot:FindFirstChild("KingdomStandardCloth", true)
+		or plot:FindFirstChild("RealmBannerCloth", true)
 	if banner and banner:IsA("BasePart") then
-		banner.Color = player and Color3.fromRGB(83, 119, 75) or Color3.fromRGB(143, 64, 46)
+		banner.Color = Config.RealmColors[plot.Name] or Color3.fromRGB(184, 74, 54)
 	end
 	local label = getClaimLabel(plot)
 	local pad = plot:FindFirstChild("ClaimPad")
@@ -76,14 +201,13 @@ local function setClaimDisplay(plot, state, player)
 	if not label then
 		return
 	end
+	local prompt = billboard and billboard:FindFirstChild("ClaimPrompt", true)
 	if player then
-		label.Text = string.format('<font size="18"><b>%s\'s</b></font>\n<font size="14">Kingdom</font>', player.Name)
-		label.BackgroundTransparency = 0.3
-		if billboard then billboard.MaxDistance = 42 end
+		label.Text = player.DisplayName .. "'s Kingdom"
+		if prompt then prompt.Text = "CLAIMED BY " .. string.upper(player.DisplayName) end
 	else
-		label.Text = state.unclaimedText
-		label.BackgroundTransparency = 0.12
-		if billboard then billboard.MaxDistance = 55 end
+		label.Text = "UNCLAIMED KINGDOM"
+		if prompt then prompt.Text = "TOUCH SEAL TO CLAIM" end
 	end
 end
 
@@ -97,31 +221,37 @@ local function createDistrictLabels(plot)
 			surface.SizingMode = Enum.SurfaceGuiSizingMode.PixelsPerStud
 			surface.PixelsPerStud = 34
 			surface.MaxDistance = 38
-			surface.LightInfluence = 0.25
+			surface.LightInfluence = 0
 			surface.Adornee = board
 			surface.Parent = board
 
 			local label = Instance.new("TextLabel")
 			label.Name = "DistrictName"
 			label.Size = UDim2.fromScale(1, 1)
-			label.BackgroundColor3 = Color3.fromRGB(61, 39, 24)
-			label.BackgroundTransparency = 0.12
+			label.BackgroundColor3 = Color3.fromRGB(39, 29, 21)
+			label.BackgroundTransparency = 0.04
 			label.BorderSizePixel = 0
-			label.Font = Enum.Font.GothamBold
+			label.Font = Enum.Font.Garamond
 			label.Text = signage.Text
-			label.TextColor3 = Color3.fromRGB(242, 218, 166)
+			label.TextColor3 = Color3.fromRGB(250, 229, 181)
 			label.TextScaled = true
-			label.TextStrokeColor3 = Color3.fromRGB(37, 27, 20)
-			label.TextStrokeTransparency = 0.45
+			label.TextStrokeColor3 = Color3.fromRGB(20, 15, 11)
+			label.TextStrokeTransparency = 0.2
 			label.TextWrapped = true
 			label.Parent = surface
+			local outline = Instance.new("UIStroke")
+			outline.Color = Color3.fromRGB(177, 132, 61)
+			outline.Thickness = 1.2
+			outline.Transparency = 0.12
+			outline.Parent = label
+			local inset = Instance.new("UIPadding")
+			inset.PaddingLeft = UDim.new(0, 8)
+			inset.PaddingRight = UDim.new(0, 8)
+			inset.PaddingTop = UDim.new(0, 2)
+			inset.PaddingBottom = UDim.new(0, 2)
+			inset.Parent = label
 		end
 	end
-end
-
-local function formatCurrency(amount)
-	local reversed = tostring(math.floor(amount)):reverse()
-	return (reversed:gsub("(%d%d%d)", "%1,"):reverse():gsub("^,", ""))
 end
 
 local function getUpgradeCost(upgrade)
@@ -209,7 +339,7 @@ local function createPurchasePad(plot, state, upgrade, buttonTemplate)
 	makePadDisk(model, "StoneFoundation", style.FoundationDiameter, style.FoundationThickness,
 		Color3.fromRGB(76, 78, 75), Enum.Material.Slate, padFrame, 0.15, false)
 	makePadDisk(model, "BronzeRim", style.RimDiameter, style.RimThickness,
-		Color3.fromRGB(145, 103, 47), Enum.Material.Metal, padFrame, 0.35, false)
+		Color3.fromRGB(145, 103, 47), Enum.Material.Neon, padFrame, 0.35, false)
 
 	local button = buttonTemplate:Clone()
 	button.Name = "TouchSurface"
@@ -218,69 +348,39 @@ local function createPurchasePad(plot, state, upgrade, buttonTemplate)
 	button:SetAttribute("TycoonId", plot.Name)
 	button.Shape = Enum.PartType.Cylinder
 	button.Size = Vector3.new(style.TouchThickness, style.TouchDiameter, style.TouchDiameter)
-	button.CFrame = padFrame * CFrame.new(0, 0.46, 0) * CFrame.Angles(0, 0, math.rad(90))
+	button.CFrame = padFrame * CFrame.new(0, 0.47, 0) * CFrame.Angles(0, 0, math.rad(90))
 	button.Anchored = true
 	button.CanCollide = true
 	button.CanTouch = true
 	button.CanQuery = false
 	button.CastShadow = false
-	button.Material = Enum.Material.Metal
-	button.Color = Color3.fromRGB(201, 154, 64)
-	button.Reflectance = 0.04
+	button.Material = Enum.Material.Neon
+	button.Color = Color3.fromRGB(229, 166, 63)
+	button.Reflectance = 0
 	button.Transparency = 0
 	button.TopSurface = Enum.SurfaceType.Smooth
 	button.BottomSurface = Enum.SurfaceType.Smooth
 	button.Parent = model
+	local pulse = TweenService:Create(button, TweenInfo.new(0.85, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), {
+		Transparency = 0.28,
+	})
+	pulse:Play()
 
-	local markerAnchor = Instance.new("Part")
-	markerAnchor.Name = "MarkerAnchor"
-	markerAnchor.Size = Vector3.new(style.MarkerDiameter, style.MarkerDiameter, style.MarkerDiameter)
-	markerAnchor.CFrame = padFrame * CFrame.new(style.MarkerOffset.X, 0.52, style.MarkerOffset.Z)
-	markerAnchor.Anchored = true
-	markerAnchor.Transparency = 1
-	markerAnchor.CanCollide = false
-	markerAnchor.CanTouch = false
-	markerAnchor.CanQuery = false
-	markerAnchor.CastShadow = false
-	markerAnchor.Parent = model
-
-	local marker = Instance.new("BillboardGui")
-	marker.Name = "AvailabilityMarker"
-	marker.Adornee = markerAnchor
-	marker.MaxDistance = style.MarkerMaxDistance
-	marker.Size = UDim2.new(1, 0, style.MarkerHeight / style.MarkerDiameter, 0)
-	marker.StudsOffsetWorldSpace = Vector3.new(0, style.MarkerHeight / 2, 0)
-	marker.AlwaysOnTop = false
-	marker.LightInfluence = 0.15
-	marker.Parent = markerAnchor
-
-	local beam = Instance.new("Frame")
-	beam.Name = "GoldBeam"
-	beam.Size = UDim2.fromScale(1, 1)
-	beam.BackgroundColor3 = Color3.fromRGB(232, 178, 79)
-	beam.BackgroundTransparency = 0.48
-	beam.BorderSizePixel = 0
-	beam.Parent = marker
+	local light = Instance.new("PointLight")
+	light.Name = "RuneGlow"
+	light.Color = Color3.fromRGB(255, 176, 72)
+	light.Brightness = 0.95
+	light.Range = 9
+	light.Parent = button
+	local lightPulse = TweenService:Create(light, TweenInfo.new(0.85, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut, -1, true), {
+		Brightness = 1.8,
+		Range = 13,
+	})
+	lightPulse:Play()
 
 	local billboard = button:FindFirstChildOfClass("BillboardGui")
-	local label = billboard and billboard:FindFirstChildWhichIsA("TextLabel", true)
-	if billboard then
-		billboard.MaxDistance = Config.PurchaseBillboardMaxDistance
-		billboard.Size = style.BillboardSize
-		billboard.StudsOffset = Vector3.zero
-		billboard.StudsOffsetWorldSpace = style.BillboardWorldOffset
-		billboard.AlwaysOnTop = false
-		billboard.LightInfluence = 0.25
-	end
-	if label then
-		label.RichText = true
-		label.TextWrapped = true
-		label.TextScaled = false
-		label.TextSize = 15
-		label.TextXAlignment = Enum.TextXAlignment.Center
-		label.TextYAlignment = Enum.TextYAlignment.Center
-		label.Text = string.format('<font size="15"><b>%s</b></font>\n<font size="13">$%s</font>', getPadTitle(upgrade), formatCurrency(getUpgradeCost(upgrade)))
-	end
+	if billboard then billboard:Destroy() end
+	createPurchaseBillboard(button, upgrade, getUpgradeCost(upgrade), style)
 
 	local record = { button = button, model = model }
 	record.connection = button.Touched:Connect(function(hit)
@@ -320,6 +420,12 @@ local function refreshPurchasePads(plot, state)
 			state.purchasePads[upgradeId] = createPurchasePad(plot, state, upgrade, buttonTemplate)
 		end
 	end
+	local nextUpgrade = getAvailableUpgrades(state)[1]
+	local targetPad = nextUpgrade and state.purchasePads[nextUpgrade.Id]
+	state.owner:SetAttribute("NextUpgradeId", nextUpgrade and nextUpgrade.Id or nil)
+	state.owner:SetAttribute("NextUpgradeName", nextUpgrade and nextUpgrade.DisplayName or nil)
+	state.owner:SetAttribute("NextUpgradeCost", nextUpgrade and getUpgradeCost(nextUpgrade) or nil)
+	state.owner:SetAttribute("NextUpgradeTarget", targetPad and targetPad.button.Position or nil)
 end
 
 local function stripEmbeddedScripts(model)
@@ -375,6 +481,7 @@ local function createMoneyBlock(plot, state, upgrade, dropPoint)
 	block.Color = upgrade.ResourceColor or Config.MoneyBlockColor
 	block.Anchored = false
 	block.CanCollide = true
+	block.CustomPhysicalProperties = PhysicalProperties.new(0.7, 0.08, 0, 1, 1)
 	block.CFrame = dropPoint.CFrame
 	block:SetAttribute("CashValue", getUpgradeIncome(upgrade))
 	block:SetAttribute("UpgradeId", upgrade.Id)
@@ -415,6 +522,7 @@ onPurchaseTouched = function(plot, state, upgradeId, button, hit)
 	local dropPoint = upgrade.Category == "Production" and asset and asset:FindFirstChild("DropPoint", true) or nil
 	local valid = state.active
 		and ownsPlot
+		and player:GetAttribute("EconomyReady") == true
 		and padIsCurrent
 		and not state.purchased[upgradeId]
 		and prerequisitesMet(state, upgrade)
@@ -435,6 +543,25 @@ onPurchaseTouched = function(plot, state, upgradeId, button, hit)
 	building:SetAttribute("OwnerUserId", player.UserId)
 	building:SetAttribute("TycoonId", plot.Name)
 	building:SetAttribute("DistrictId", upgrade.District)
+	if upgrade.Category == "Production" then
+		-- Replace the district artwork with its current full version, while keeping
+		-- each earlier producer's server-owned output anchor alive.
+		for oldId, oldInstance in pairs(state.upgradeInstances) do
+			local oldUpgrade = Config.Upgrades[oldId]
+			if oldUpgrade and oldUpgrade.Category == "Production"
+				and oldUpgrade.District == upgrade.District and oldInstance:IsA("Model")
+			then
+				local oldDropPoint = oldInstance:FindFirstChild("DropPoint", true)
+				if oldDropPoint and oldDropPoint:IsA("BasePart") then
+					oldDropPoint.Name = "ProductionNode_" .. oldId
+					oldDropPoint.Parent = plot
+					state.productionPoints[oldId] = oldDropPoint
+					state.upgradeInstances[oldId] = oldDropPoint
+				end
+				oldInstance:Destroy()
+			end
+		end
+	end
 	if upgrade.Category == "Structure" then
 		local previous = state.structureInstances[upgrade.VisualGroup]
 		if previous then
@@ -452,8 +579,10 @@ onPurchaseTouched = function(plot, state, upgradeId, button, hit)
 	state.purchased[upgradeId] = true
 	state.upgradeInstances[upgradeId] = building
 	state.purchaseLocks[upgradeId] = nil
+	KingdomNPCService.Reconcile(plot, state)
 	if upgrade.Category == "Production" then
 		state.nextProductionAt[upgradeId] = os.clock() + getUpgradeInterval(upgrade)
+		state.productionPoints[upgradeId] = building:FindFirstChild("DropPoint", true)
 	end
 	if padRecord.connection then padRecord.connection:Disconnect() end
 	if padRecord.model.Parent then padRecord.model:Destroy() end
@@ -471,9 +600,17 @@ end
 local function resetPlot(plot, state)
 	local previousOwner = state.owner
 	state.active = false
-	if previousOwner and playerToTycoon[previousOwner] == plot then playerToTycoon[previousOwner] = nil end
+	KingdomNPCService.Cleanup(plot, state)
+	if previousOwner and playerToTycoon[previousOwner] == plot then
+		playerToTycoon[previousOwner] = nil
+		if previousOwner:GetAttribute("TycoonId") == plot.Name then previousOwner:SetAttribute("TycoonId", nil) end
+	end
+	WeaponService.SetArmoryOwner(state.armoryCards, nil)
 	clearPurchasePads(state)
 	clearTycoonMoney(plot)
+	for _, key in ipairs({ "NextUpgradeId", "NextUpgradeName", "NextUpgradeCost", "NextUpgradeTarget" }) do
+		if previousOwner then previousOwner:SetAttribute(key, nil) end
+	end
 	for _, instance in pairs(state.upgradeInstances) do
 		if instance.Parent then instance:Destroy() end
 	end
@@ -482,6 +619,7 @@ local function resetPlot(plot, state)
 	state.owner = nil
 	state.purchased = {}
 	state.upgradeInstances = {}
+	state.productionPoints = {}
 	state.structureInstances = {}
 	state.nextProductionAt = {}
 	state.purchaseLocks = {}
@@ -524,7 +662,11 @@ local function connectDistrictCollectorsAndConveyors(plot, state)
 						and state.purchased[upgradeId] == true
 					if valid then
 						local cash = getCash(player)
-						if cash then cash.Value += getUpgradeIncome(upgrade) end
+						if cash then
+							local income = getUpgradeIncome(upgrade)
+							if player:GetAttribute("OwnsPass_DoubleGold") == true then income *= 2 end
+							cash.Value += income
+						end
 						hit:Destroy()
 					elseif hit:GetAttribute("OwnerUserId") == (state.owner and state.owner.UserId or -1) then
 						-- Stale resources from a reset or a removed producer are discarded.
@@ -563,6 +705,27 @@ local function createPlot(plotName, offset, rotation)
 		return nil
 	end
 	local plotFrame = CFrame.new(offset) * CFrame.Angles(0, math.rad(rotation), 0)
+	for district, corridor in pairs(Config.ProductionCorridors) do
+		local conveyor = plot:FindFirstChild("Conveyor_" .. district, true)
+		local collector = plot:FindFirstChild("Collector_" .. district, true)
+		assert(conveyor and conveyor:IsA("BasePart"), "Missing " .. district .. " conveyor: " .. plotName)
+		assert(collector and collector:IsA("BasePart"), "Missing " .. district .. " collector: " .. plotName)
+		assert((conveyor.Position - plotFrame:PointToWorldSpace(corridor.LaneCenter)).Magnitude < 0.3,
+			district .. " conveyor is not at its configured local lane position: " .. plotName)
+		assert(math.abs(conveyor.Size.X - corridor.LaneWidth) < 0.05
+			and math.abs(conveyor.Size.Z - corridor.LaneLength) < 0.05,
+			district .. " conveyor dimensions disagree with the shared corridor standard: " .. plotName)
+		assert(conveyor.CFrame.LookVector:Dot(plotFrame.RightVector) > 0.99,
+			district .. " conveyor points away from its collector: " .. plotName)
+		assert((collector.Position - plotFrame:PointToWorldSpace(corridor.CollectorCenter)).Magnitude < 0.3
+			and collector.CanTouch and not collector.CanCollide,
+			district .. " collector is misplaced or cannot collect resources: " .. plotName)
+		local laneEnd = corridor.LaneCenter + Vector3.new(corridor.LaneLength / 2, 0, 0)
+		local collectorLocal = plotFrame:PointToObjectSpace(collector.Position)
+		assert(math.abs(laneEnd.X - collectorLocal.X) <= corridor.CollectorSize.X / 2
+			and math.abs(laneEnd.Z - collectorLocal.Z) <= corridor.CollectorSize.Z / 2,
+			district .. " collector does not cover the end of its route: " .. plotName)
+	end
 	local spawn = plot:FindFirstChild("Spawn")
 	if spawn and spawn:IsA("SpawnLocation") then spawn.Enabled = false end
 	local ownerValue = plot:FindFirstChild("Owner")
@@ -578,6 +741,7 @@ local function createPlot(plotName, offset, rotation)
 			child:Destroy()
 		end
 	end
+	prepareClaimBillboard(plot)
 	local claimLabel = getClaimLabel(plot)
 	createDistrictLabels(plot)
 	local state = {
@@ -586,13 +750,19 @@ local function createPlot(plotName, offset, rotation)
 		plotFrame = plotFrame,
 		purchased = {},
 		upgradeInstances = {},
+		productionPoints = {},
 		structureInstances = {},
 		nextProductionAt = {},
 		purchaseLocks = {},
 		purchasePads = {},
-		unclaimedText = claimLabel and claimLabel.Text or "CLAIM KINGDOM\nTOUCH TO CLAIM",
 	}
 	plotStates[plot] = state
+	state.armoryCards = WeaponService.CreateArmory(plot, plotFrame, function(player, weaponId)
+		if not state.active or state.owner ~= player or playerToTycoon[player] ~= plot then
+			return "NotYourKingdom"
+		end
+		return WeaponService.TryPurchase(player, weaponId, state)
+	end)
 
 	local claimPad = plot:FindFirstChild("ClaimPad")
 	if claimPad and claimPad:IsA("BasePart") then
@@ -606,8 +776,11 @@ local function createPlot(plotName, offset, rotation)
 			end
 			state.owner = player
 			playerToTycoon[player] = plot
+			player:SetAttribute("TycoonId", plot.Name)
 			currentOwner.Value = player
+			WeaponService.SetArmoryOwner(state.armoryCards, player)
 			setClaimDisplay(plot, state, player)
+			KingdomNPCService.Reconcile(plot, state)
 			refreshPurchasePads(plot, state)
 		end)
 	else
@@ -620,10 +793,41 @@ end
 
 local function emitProduction(plot, state, upgradeId)
 	local upgrade = Config.Upgrades[upgradeId]
-	local building = state.upgradeInstances[upgradeId]
-	local dropPoint = building and building:FindFirstChild("DropPoint", true)
+	local dropPoint = state.productionPoints[upgradeId]
 	if upgrade and state.purchased[upgradeId] and state.active and dropPoint and dropPoint:IsA("BasePart") then
 		createMoneyBlock(plot, state, upgrade, dropPoint)
+	end
+end
+
+local function transportProductionResources(plot, state)
+	if not state.owner or not state.owner.Parent then return end
+	for district, lane in pairs(Config.ProductionCorridors) do
+		local conveyor = plot:FindFirstChild("Conveyor_" .. district, true)
+		if conveyor and conveyor:IsA("BasePart") then
+			local direction = conveyor.CFrame.LookVector
+			local horizontalDirection = Vector3.new(direction.X, 0, direction.Z)
+			if horizontalDirection.Magnitude > 0.9 then
+				horizontalDirection = horizontalDirection.Unit
+				for _, block in ipairs(moneyBlocksFolder:GetChildren()) do
+					if block:IsA("BasePart") and block.Name == "MoneyBlock"
+						and block:GetAttribute("DistrictId") == district
+						and block:GetAttribute("TycoonId") == plot.Name
+						and block:GetAttribute("OwnerUserId") == state.owner.UserId
+					then
+						local localPosition = conveyor.CFrame:PointToObjectSpace(block.Position)
+						local halfWidth = lane.LaneWidth / 2 + block.Size.Z / 2
+						local halfLength = lane.LaneLength / 2 + block.Size.X / 2
+						local halfHeight = conveyor.Size.Y / 2 + block.Size.Y / 2 + 0.25
+						if math.abs(localPosition.X) <= halfWidth and math.abs(localPosition.Z) <= halfLength
+							and math.abs(localPosition.Y) <= halfHeight
+						then
+							local velocity = block.AssemblyLinearVelocity
+							block.AssemblyLinearVelocity = horizontalDirection * Config.ConveyorSpeed + Vector3.new(0, velocity.Y, 0)
+						end
+					end
+				end
+			end
+		end
 	end
 end
 
@@ -636,6 +840,7 @@ local function startProductionScheduler()
 			local now = os.clock()
 			for plot, state in pairs(plotStates) do
 				if state.active and state.owner and state.owner.Parent then
+					transportProductionResources(plot, state)
 					for _, upgradeId in ipairs(Config.UpgradeOrder) do
 						local upgrade = Config.Upgrades[upgradeId]
 						local nextAt = state.nextProductionAt[upgradeId]
@@ -675,6 +880,7 @@ function TycoonService.Initialize()
 	if initialized then return end
 	initialized = true
 	validateProgressionConfig()
+	KingdomNPCService.Initialize()
 	for plotName, offset in pairs(Config.PlotOffsets) do
 		createPlot(plotName, offset, Config.PlotRotations[plotName] or 0)
 	end
