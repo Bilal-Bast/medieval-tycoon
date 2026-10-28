@@ -1,7 +1,7 @@
 {
   "className": "Atmosphere",
   "properties": {
-    "Density": 0.19,
+    "Density": 0.12,
     "SerializedOverrides": {
       "BinaryString": ""
     },
@@ -11,10 +11,10 @@
       0.3
     ],
     "Color": [
-      0.8,
-      0.77,
-      0.69
+      0.87,
+      0.80,
+      0.70
     ],
-    "Offset": 0.12
+    "Offset": 0.16
   }
 }
