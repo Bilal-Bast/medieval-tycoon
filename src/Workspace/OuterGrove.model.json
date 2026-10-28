@@ -1,0 +1,3001 @@
+{
+  "className": "Model",
+  "properties": {
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "OuterOakTrunk1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              780.678,
+              4,
+              323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              780.678,
+              9,
+              323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough1_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.678,
+              7,
+              324.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough1_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              783.678,
+              7,
+              322.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower1_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              786.778,
+              1.4,
+              323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower1_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.628,
+              1.4,
+              328.65
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower1_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.628,
+              1.4,
+              318.085
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              323.368,
+              4,
+              780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              323.368,
+              9,
+              780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough2_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              320.368,
+              7,
+              781.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough2_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              326.368,
+              7,
+              779.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower2_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              329.201,
+              1.4,
+              782.462
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower2_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              318.906,
+              1.4,
+              784.838
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower2_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              321.995,
+              1.4,
+              774.735
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -323.368,
+              4,
+              780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -323.368,
+              9,
+              780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough3_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.368,
+              7,
+              781.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough3_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -320.368,
+              7,
+              779.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower3_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -318.31,
+              1.4,
+              784.089
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower3_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -328.85,
+              1.4,
+              783.352
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower3_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -322.942,
+              1.4,
+              774.593
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -780.678,
+              4,
+              323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy4",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -780.678,
+              9,
+              323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough4_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -783.678,
+              7,
+              324.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough4_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -777.678,
+              7,
+              322.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower4_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -776.839,
+              1.4,
+              328.108
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower4_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -786.703,
+              1.4,
+              324.322
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower4_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -778.492,
+              1.4,
+              317.673
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -780.678,
+              4,
+              -323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -780.678,
+              9,
+              -323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough5_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -783.678,
+              7,
+              -322.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough5_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -777.678,
+              7,
+              -324.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower5_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -778.393,
+              1.4,
+              -317.712
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower5_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -786.719,
+              1.4,
+              -324.216
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower5_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -776.923,
+              1.4,
+              -328.174
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.93,
+          0.42,
+          0.43
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk6",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -323.368,
+              4,
+              -780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy6",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -323.368,
+              9,
+              -780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough6_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.368,
+              7,
+              -779.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough6_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -320.368,
+              7,
+              -781.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower6_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -322.836,
+              1.4,
+              -774.601
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower6_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -328.896,
+              1.4,
+              -783.256
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower6_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -318.371,
+              1.4,
+              -784.177
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.97,
+          0.73,
+          0.25
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk7",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              323.368,
+              4,
+              -780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy7",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              323.368,
+              9,
+              -780.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.2,
+          0.4,
+          0.35
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough7_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              320.368,
+              7,
+              -779.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough7_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              326.368,
+              7,
+              -781.678
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower7_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              322.099,
+              1.4,
+              -774.712
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower7_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              318.834,
+              1.4,
+              -784.76
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower7_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              329.169,
+              1.4,
+              -782.563
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.67,
+          0.47,
+          0.88
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakTrunk8",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              780.678,
+              4,
+              -323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.19,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          2.1,
+          8.0,
+          2.1
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakCanopy8",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              780.678,
+              9,
+              -323.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.34,
+          0.48,
+          0.25
+        ],
+        "Material": "Grass",
+        "Size": [
+          10.0,
+          9.0,
+          10.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough8_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.678,
+              7,
+              -322.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.43,
+          0.22
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterOakBough8_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              783.678,
+              7,
+              -324.368
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.29,
+          0.5,
+          0.26
+        ],
+        "Material": "Grass",
+        "Size": [
+          6.4,
+          6.3,
+          6.4
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower8_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.721,
+              1.4,
+              -318.032
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower8_2",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              777.536,
+              1.4,
+              -328.596
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "OuterWildflower8_3",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              786.777,
+              1.4,
+              -323.474
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.98,
+          0.56,
+          0.24
+        ],
+        "Material": "SmoothPlastic",
+        "Size": [
+          1.15,
+          0.8,
+          1.15
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    }
+  ]
+}

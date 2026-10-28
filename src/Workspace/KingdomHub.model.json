@@ -43,9 +43,9 @@
         ],
         "Material": "Cobblestone",
         "Size": [
-          52.0,
+          96,
           0.52,
-          52.0
+          96
         ],
         "Transparency": 0.0,
         "TopSurface": "Smooth",
@@ -66,7 +66,7 @@
             "position": [
               0.0,
               0.49,
-              -26.2
+              -48.2
             ],
             "orientation": [
               [
@@ -94,7 +94,7 @@
         ],
         "Material": "Slate",
         "Size": [
-          52.0,
+          96,
           0.26,
           0.8
         ],
@@ -117,7 +117,7 @@
             "position": [
               0.0,
               0.49,
-              26.2
+              48.2
             ],
             "orientation": [
               [
@@ -145,7 +145,7 @@
         ],
         "Material": "Slate",
         "Size": [
-          52.0,
+          96,
           0.26,
           0.8
         ],
@@ -166,7 +166,7 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              26.2,
+              48.2,
               0.49,
               0.0
             ],
@@ -198,7 +198,7 @@
         "Size": [
           0.8,
           0.26,
-          52.0
+          96
         ],
         "Transparency": 0.0,
         "TopSurface": "Smooth",
@@ -217,7 +217,7 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -26.2,
+              -48.2,
               0.49,
               0.0
             ],
@@ -249,619 +249,7 @@
         "Size": [
           0.8,
           0.26,
-          52.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthWestRoad",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -52.32590180780451,
-              0.19,
-              -52.32590180780451
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.39,
-          0.31,
-          0.22
-        ],
-        "Material": "Ground",
-        "Size": [
-          13.0,
-          0.34,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthWestRoadStoneEdge-7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -47.37615433949868,
-              0.36,
-              -57.27564927611034
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthWestRoadStoneEdge7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -57.27564927611034,
-              0.36,
-              -47.37615433949868
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthEastRoad",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              52.32590180780451,
-              0.19,
-              -52.32590180780451
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.39,
-          0.31,
-          0.22
-        ],
-        "Material": "Ground",
-        "Size": [
-          13.0,
-          0.34,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthEastRoadStoneEdge-7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              57.27564927611034,
-              0.36,
-              -47.37615433949868
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "NorthEastRoadStoneEdge7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              47.37615433949868,
-              0.36,
-              -57.27564927611034
-            ],
-            "orientation": [
-              [
-                -0.7071067811865475,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                -0.7071067811865475
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthWestRoad",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -52.32590180780451,
-              0.19,
-              52.32590180780451
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.39,
-          0.31,
-          0.22
-        ],
-        "Material": "Ground",
-        "Size": [
-          13.0,
-          0.34,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthWestRoadStoneEdge-7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -57.27564927611034,
-              0.36,
-              47.37615433949868
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthWestRoadStoneEdge7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -47.37615433949868,
-              0.36,
-              57.27564927611034
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                -0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthEastRoad",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              52.32590180780451,
-              0.19,
-              52.32590180780451
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.39,
-          0.31,
-          0.22
-        ],
-        "Material": "Ground",
-        "Size": [
-          13.0,
-          0.34,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthEastRoadStoneEdge-7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              47.37615433949868,
-              0.36,
-              57.27564927611034
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
-        ],
-        "Transparency": 0.0,
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "SouthEastRoadStoneEdge7",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": true,
-        "CanTouch": false,
-        "CanQuery": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              57.27564927611034,
-              0.36,
-              47.37615433949868
-            ],
-            "orientation": [
-              [
-                0.7071067811865476,
-                0,
-                0.7071067811865476
-              ],
-              [
-                0,
-                1,
-                0
-              ],
-              [
-                -0.7071067811865476,
-                0,
-                0.7071067811865476
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.36,
-          0.35,
-          0.32
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          0.9,
-          0.44,
-          78.0
+          96
         ],
         "Transparency": 0.0,
         "TopSurface": "Smooth",
@@ -3175,6 +2563,8075 @@
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
       }
+    },
+    {
+      "name": "RealmLantern1Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern1Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern1Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern2Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern2Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern3Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern3Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern4Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern4Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern5Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern5Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern6Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern6Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern7Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern7Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern8Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern8Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern1Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern1Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern2Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern2Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern3Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern3Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern4Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern4Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern5Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern5Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern6Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern6Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern7Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern7Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.59,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern8Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.15,
+            "Color": [
+              1,
+              0.61,
+              0.28
+            ],
+            "Range": 15,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern8Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.8,
+          0.32,
+          0.23
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern1Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.8,
+              0.32,
+              0.23
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern1Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.63,
+          0.88
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern2Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.31,
+              0.63,
+              0.88
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern2Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.72,
+          0.36
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern3Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.48,
+              0.72,
+              0.36
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern3Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.68,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern4Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.96,
+              0.68,
+              0.24
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern4Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.73,
+          0.48,
+          0.91
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern5Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.73,
+              0.48,
+              0.91
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern5Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.26,
+          0.78,
+          0.7
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern6Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.26,
+              0.78,
+              0.7
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern6Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.91,
+          0.45,
+          0.34
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern7Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.91,
+              0.45,
+              0.34
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern7Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.43,
+          0.58,
+          0.94
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern8Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.43,
+              0.58,
+              0.94
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern8Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainStoneBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              1.1,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.37,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          18.0,
+          0.85,
+          18.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainPedestal",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              1.9,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.53,
+          0.47,
+          0.36
+        ],
+        "Material": "Marble",
+        "Size": [
+          4.0,
+          1.9,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainLowerBowl",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              3.0,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.55,
+          0.49,
+          0.38
+        ],
+        "Material": "Slate",
+        "Size": [
+          11.0,
+          0.7,
+          11.0
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainLowerWater",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              3.38,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.18,
+          0.7,
+          0.82
+        ],
+        "Material": "Neon",
+        "Size": [
+          9.4,
+          0.12,
+          9.4
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainColumn",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              4.45,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.71,
+          0.61,
+          0.43
+        ],
+        "Material": "Marble",
+        "Size": [
+          1.2,
+          2.5,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainUpperBowl",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              5.65,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.54,
+          0.4
+        ],
+        "Material": "Marble",
+        "Size": [
+          5.8,
+          0.48,
+          5.8
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainCrown",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              6.75,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.32,
+          0.87,
+          0.91
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.35,
+          1.35,
+          1.35
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "FountainGlow",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.3,
+            "Color": [
+              0.22,
+              0.75,
+              0.94
+            ],
+            "Range": 16,
+            "Shadows": false
+          },
+          "children": []
+        },
+        {
+          "name": "FountainGlow",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.3,
+            "Color": [
+              0.22,
+              0.75,
+              0.94
+            ],
+            "Range": 16,
+            "Shadows": false
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern1Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern1Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.8,
+          0.32,
+          0.23
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern1Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.8,
+              0.32,
+              0.23
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern1Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern2Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.31,
+          0.63,
+          0.88
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern2Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.31,
+              0.63,
+              0.88
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern2Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern3Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.72,
+          0.36
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern3Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.48,
+              0.72,
+              0.36
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern3Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern4Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.96,
+          0.68,
+          0.24
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern4Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.96,
+              0.68,
+              0.24
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern4Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern5Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.73,
+          0.48,
+          0.91
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern5Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.73,
+              0.48,
+              0.91
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern5Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern6Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.26,
+          0.78,
+          0.7
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern6Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.26,
+              0.78,
+              0.7
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern6Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              0.95,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              3.1,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern7Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              5.35,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.91,
+          0.45,
+          0.34
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern7Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.91,
+              0.45,
+              0.34
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern7Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              15.3073,
+              6.0,
+              -36.9552
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Base",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              0.95,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.3,
+          0.27,
+          0.21
+        ],
+        "Material": "Slate",
+        "Size": [
+          1.7,
+          0.75,
+          1.7
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Post",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              3.1,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.24,
+          0.17,
+          0.1
+        ],
+        "Material": "Wood",
+        "Size": [
+          0.48,
+          4.3,
+          0.48
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RealmLantern8Glass",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              5.35,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.43,
+          0.58,
+          0.94
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": [
+        {
+          "name": "RealmLantern8Light",
+          "className": "PointLight",
+          "properties": {
+            "Brightness": 1.25,
+            "Color": [
+              0.43,
+              0.58,
+              0.94
+            ],
+            "Range": 17,
+            "Shadows": true
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "RealmLantern8Cap",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              36.9552,
+              6.0,
+              -15.3073
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.36,
+          0.27,
+          0.16
+        ],
+        "Material": "Metal",
+        "Size": [
+          1.4,
+          0.28,
+          1.4
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainStoneBase",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              1.1,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.37,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          18.0,
+          0.85,
+          18.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainPedestal",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              1.9,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.53,
+          0.47,
+          0.36
+        ],
+        "Material": "Marble",
+        "Size": [
+          4.0,
+          1.9,
+          4.0
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainLowerBowl",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              3.0,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.55,
+          0.49,
+          0.38
+        ],
+        "Material": "Slate",
+        "Size": [
+          11.0,
+          0.7,
+          11.0
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainLowerWater",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              3.38,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.18,
+          0.7,
+          0.82
+        ],
+        "Material": "Neon",
+        "Size": [
+          9.4,
+          0.12,
+          9.4
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainColumn",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              4.45,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.71,
+          0.61,
+          0.43
+        ],
+        "Material": "Marble",
+        "Size": [
+          1.2,
+          2.5,
+          1.2
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainUpperBowl",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              5.65,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.63,
+          0.54,
+          0.4
+        ],
+        "Material": "Marble",
+        "Size": [
+          5.8,
+          0.48,
+          5.8
+        ],
+        "Transparency": 0,
+        "Shape": "Cylinder",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "FountainCrown",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": false,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -17,
+              6.75,
+              -17
+            ],
+            "orientation": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.32,
+          0.87,
+          0.91
+        ],
+        "Material": "Neon",
+        "Size": [
+          1.35,
+          1.35,
+          1.35
+        ],
+        "Transparency": 0,
+        "Shape": "Ball",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
     }
   ]
 }

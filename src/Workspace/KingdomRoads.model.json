@@ -30,7 +30,7 @@
   },
   "children": [
     {
-      "name": "Tycoon1RoyalRoad",
+      "name": "RoyalRoad_Tycoon1",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -41,464 +41,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -130.7721,
-              1.16,
-              -130.7721
+              -270.83251470839764,
+              0.78,
+              -141.37457267778356
             ],
             "orientation": [
               [
-                -0.707107,
-                0.0,
-                -0.707107
+                -0.4627477735227047,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.707107,
-                0.0,
-                -0.707107
+                0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.384314,
-          0.372549,
-          0.345098
+          0.39,
+          0.37,
+          0.32
         ],
         "Material": "Cobblestone",
         "Size": [
-          12.0,
-          0.28,
-          358.649
+          18.0,
+          0.32,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon1RoadEdge-1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -126.1759,
-              1.32,
-              -135.3683
-            ],
-            "orientation": [
-              [
-                -0.707107,
-                0.0,
-                -0.707107
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.707107,
-                0.0,
-                -0.707107
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
-        ],
-        "Material": "Slate",
-        "Size": [
-          0.65,
-          0.5,
-          358.649
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadEdge1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -135.3683,
-              1.32,
-              -126.1759
-            ],
-            "orientation": [
-              [
-                -0.707107,
-                0.0,
-                -0.707107
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.707107,
-                0.0,
-                -0.707107
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
-        ],
-        "Material": "Slate",
-        "Size": [
-          0.65,
-          0.5,
-          358.649
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadPost1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -72.3211,
-              3.3,
-              -72.3211
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadLamp1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -72.3211,
-              5.2,
-              -72.3211
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadPost2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -135.7218,
-              3.3,
-              -135.7218
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadLamp2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -135.7218,
-              5.2,
-              -135.7218
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadPost3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -199.1226,
-              3.3,
-              -199.1226
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon1RoadLamp3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -199.1226,
-              5.2,
-              -199.1226
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoyalRoad",
+      "name": "RoyalRoadEdge_T1_-1",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -509,464 +94,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              143.3916,
-              1.16,
-              -131.134
+              -275.4599924436247,
+              0.99,
+              -132.50967280186967
             ],
             "orientation": [
               [
-                -0.741575,
-                0.0,
-                0.67087
+                -0.4627477735227047,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                -0.67087,
-                0.0,
-                -0.741575
+                0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.384314,
-          0.372549,
-          0.345098
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          12.0,
-          0.28,
-          340.724
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadEdge-1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              148.2118,
-              1.32,
-              -126.7733
-            ],
-            "orientation": [
-              [
-                -0.741575,
-                0.0,
-                0.67087
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                -0.67087,
-                0.0,
-                -0.741575
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
+          0.48,
+          0.46,
+          0.42
         ],
         "Material": "Slate",
         "Size": [
           0.65,
-          0.5,
-          340.724
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon2RoadEdge1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              138.5714,
-              1.32,
-              -135.4946
-            ],
-            "orientation": [
-              [
-                -0.741575,
-                0.0,
-                0.67087
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                -0.67087,
-                0.0,
-                -0.741575
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
-        ],
-        "Material": "Slate",
-        "Size": [
-          0.65,
-          0.5,
-          340.724
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadPost1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              90.9423,
-              3.3,
-              -73.1569
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadLamp1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              90.9423,
-              5.2,
-              -73.1569
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadPost2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              148.0877,
-              3.3,
-              -136.325
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadLamp2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              148.0877,
-              5.2,
-              -136.325
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadPost3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              205.233,
-              3.3,
-              -199.4931
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon2RoadLamp3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              205.233,
-              5.2,
-              -199.4931
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoyalRoad",
+      "name": "RoyalRoadEdge_T1_1",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -977,464 +147,49 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              -131.134,
-              1.16,
-              143.3916
+              -275.4599924436247,
+              0.99,
+              -132.50967280186967
             ],
             "orientation": [
               [
-                0.67087,
-                0.0,
-                -0.741575
+                -0.4627477735227047,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.741575,
-                0.0,
-                0.67087
+                0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.384314,
-          0.372549,
-          0.345098
-        ],
-        "Material": "Cobblestone",
-        "Size": [
-          12.0,
-          0.28,
-          340.724
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadEdge-1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -135.4946,
-              1.32,
-              138.5714
-            ],
-            "orientation": [
-              [
-                0.67087,
-                0.0,
-                -0.741575
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.741575,
-                0.0,
-                0.67087
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
+          0.48,
+          0.46,
+          0.42
         ],
         "Material": "Slate",
         "Size": [
           0.65,
-          0.5,
-          340.724
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon3RoadEdge1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -126.7733,
-              1.32,
-              148.2118
-            ],
-            "orientation": [
-              [
-                0.67087,
-                0.0,
-                -0.741575
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.741575,
-                0.0,
-                0.67087
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.470588,
-          0.462745,
-          0.435294
-        ],
-        "Material": "Slate",
-        "Size": [
-          0.65,
-          0.5,
-          340.724
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadPost1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -73.1569,
-              3.3,
-              90.9423
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadLamp1",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -73.1569,
-              5.2,
-              90.9423
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadPost2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -136.325,
-              3.3,
-              148.0877
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadLamp2",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -136.325,
-              5.2,
-              148.0877
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadPost3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -199.4931,
-              3.3,
-              205.233
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.329412,
-          0.219608,
-          0.121569
-        ],
-        "Material": "Wood",
-        "Size": [
-          0.55,
-          4.5,
-          0.55
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon3RoadLamp3",
-      "className": "Part",
-      "properties": {
-        "Anchored": true,
-        "CanCollide": false,
-        "CanQuery": false,
-        "CanTouch": false,
-        "CastShadow": true,
-        "CFrame": {
-          "CFrame": {
-            "position": [
-              -199.4931,
-              5.2,
-              205.233
-            ],
-            "orientation": [
-              [
-                1.0,
-                0.0,
-                0.0
-              ],
-              [
-                0.0,
-                1.0,
-                0.0
-              ],
-              [
-                0.0,
-                0.0,
-                1.0
-              ]
-            ]
-          }
-        },
-        "Color": [
-          0.839216,
-          0.639216,
-          0.294118
-        ],
-        "Material": "Glass",
-        "Size": [
-          1.2,
-          1.2,
-          1.2
-        ],
-        "Transparency": 0,
-        "Shape": "Block",
-        "TopSurface": "Smooth",
-        "BottomSurface": "Smooth"
-      }
-    },
-    {
-      "name": "Tycoon4RoyalRoad",
+      "name": "RoyalRoad_Tycoon2",
       "className": "Part",
       "properties": {
         "Anchored": true,
@@ -1445,461 +200,1106 @@
         "CFrame": {
           "CFrame": {
             "position": [
-              143.7721,
-              1.16,
-              143.7721
+              270.83251470839764,
+              0.78,
+              -141.37457267778356
             ],
             "orientation": [
               [
-                0.707107,
-                0.0,
-                0.707107
+                -0.4627477735227047,
+                0,
+                0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                -0.707107,
-                0.0,
-                0.707107
+                -0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.384314,
-          0.372549,
-          0.345098
+          0.39,
+          0.37,
+          0.32
         ],
         "Material": "Cobblestone",
         "Size": [
-          12.0,
-          0.28,
-          321.879
+          18.0,
+          0.32,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadEdge-1",
+      "name": "RoyalRoadEdge_T2_-1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              139.1759,
-              1.32,
-              148.3683
+              266.2050369731706,
+              0.99,
+              -150.23947255369745
             ],
             "orientation": [
               [
-                0.707107,
-                0.0,
-                0.707107
+                -0.4627477735227047,
+                0,
+                0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                -0.707107,
-                0.0,
-                0.707107
+                -0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.470588,
-          0.462745,
-          0.435294
+          0.48,
+          0.46,
+          0.42
         ],
         "Material": "Slate",
         "Size": [
           0.65,
-          0.5,
-          321.879
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadEdge1",
+      "name": "RoyalRoadEdge_T2_1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              148.3683,
-              1.32,
-              139.1759
+              266.2050369731706,
+              0.99,
+              -150.23947255369745
             ],
             "orientation": [
               [
-                0.707107,
-                0.0,
-                0.707107
+                -0.4627477735227047,
+                0,
+                0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                -0.707107,
-                0.0,
-                0.707107
+                -0.8864899875913882,
+                0,
+                -0.4627477735227047
               ]
             ]
           }
         },
         "Color": [
-          0.470588,
-          0.462745,
-          0.435294
+          0.48,
+          0.46,
+          0.42
         ],
         "Material": "Slate",
         "Size": [
           0.65,
-          0.5,
-          321.879
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadPost1",
+      "name": "RoyalRoad_Tycoon3",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              91.8211,
-              3.3,
-              91.8211
+              -270.83251470839764,
+              0.78,
+              141.37457267778356
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                0.46274777352270463,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0.8864899875913882,
+                0,
+                0.46274777352270463
               ]
             ]
           }
         },
         "Color": [
-          0.329412,
-          0.219608,
-          0.121569
+          0.39,
+          0.37,
+          0.32
         ],
-        "Material": "Wood",
+        "Material": "Cobblestone",
         "Size": [
-          0.55,
-          4.5,
-          0.55
+          18.0,
+          0.32,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadLamp1",
+      "name": "RoyalRoadEdge_T3_-1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              91.8211,
-              5.2,
-              91.8211
+              -266.2050369731706,
+              0.99,
+              150.23947255369745
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                0.46274777352270463,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0.8864899875913882,
+                0,
+                0.46274777352270463
               ]
             ]
           }
         },
         "Color": [
-          0.839216,
-          0.639216,
-          0.294118
+          0.48,
+          0.46,
+          0.42
         ],
-        "Material": "Glass",
+        "Material": "Slate",
         "Size": [
-          1.2,
-          1.2,
-          1.2
+          0.65,
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadPost2",
+      "name": "RoyalRoadEdge_T3_1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              148.7218,
-              3.3,
-              148.7218
+              -266.2050369731706,
+              0.99,
+              150.23947255369745
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                0.46274777352270463,
+                0,
+                -0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                0.8864899875913882,
+                0,
+                0.46274777352270463
               ]
             ]
           }
         },
         "Color": [
-          0.329412,
-          0.219608,
-          0.121569
+          0.48,
+          0.46,
+          0.42
         ],
-        "Material": "Wood",
+        "Material": "Slate",
         "Size": [
-          0.55,
-          4.5,
-          0.55
+          0.65,
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadLamp2",
+      "name": "RoyalRoad_Tycoon4",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              148.7218,
-              5.2,
-              148.7218
+              270.83251470839764,
+              0.78,
+              141.37457267778356
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                0.46274777352270463,
+                0,
+                0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                -0.8864899875913882,
+                0,
+                0.46274777352270463
               ]
             ]
           }
         },
         "Color": [
-          0.839216,
-          0.639216,
-          0.294118
+          0.39,
+          0.37,
+          0.32
         ],
-        "Material": "Glass",
+        "Material": "Cobblestone",
         "Size": [
-          1.2,
-          1.2,
-          1.2
+          18.0,
+          0.32,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadPost3",
+      "name": "RoyalRoadEdge_T4_-1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              205.6226,
-              3.3,
-              205.6226
+              275.4599924436247,
+              0.99,
+              132.50967280186967
             ],
             "orientation": [
               [
-                1.0,
-                0.0,
-                0.0
+                0.46274777352270463,
+                0,
+                0.8864899875913882
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
-                1.0
+                -0.8864899875913882,
+                0,
+                0.46274777352270463
               ]
             ]
           }
         },
         "Color": [
-          0.329412,
-          0.219608,
-          0.121569
+          0.48,
+          0.46,
+          0.42
         ],
-        "Material": "Wood",
+        "Material": "Slate",
         "Size": [
-          0.55,
-          4.5,
-          0.55
+          0.65,
+          0.35,
+          517.0221626851201
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
     },
     {
-      "name": "Tycoon4RoadLamp3",
+      "name": "RoyalRoadEdge_T4_1",
       "className": "Part",
       "properties": {
         "Anchored": true,
-        "CanCollide": false,
+        "CanCollide": true,
         "CanQuery": false,
         "CanTouch": false,
         "CastShadow": true,
         "CFrame": {
           "CFrame": {
             "position": [
-              205.6226,
-              5.2,
-              205.6226
+              275.4599924436247,
+              0.99,
+              132.50967280186967
+            ],
+            "orientation": [
+              [
+                0.46274777352270463,
+                0,
+                0.8864899875913882
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.8864899875913882,
+                0,
+                0.46274777352270463
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          517.0221626851201
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoad_Tycoon5",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              0.78,
+              -154.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0,
+                1.2246467991473532e-16
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.37,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          18.0,
+          0.32,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T5_-1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -10.0,
+              0.99,
+              -154.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0,
+                1.2246467991473532e-16
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T5_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -10.0,
+              0.99,
+              -154.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0,
+                1.2246467991473532e-16
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.2246467991473532e-16,
+                0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoad_Tycoon6",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              154.0,
+              0.78,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.37,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          18.0,
+          0.32,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T6_-1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              154.0,
+              0.99,
+              -10.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T6_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              154.0,
+              0.99,
+              -10.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoad_Tycoon7",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              0.78,
+              154.0
             ],
             "orientation": [
               [
                 1.0,
-                0.0,
+                0,
                 0.0
               ],
               [
-                0.0,
-                1.0,
-                0.0
+                0,
+                1,
+                0
               ],
               [
-                0.0,
-                0.0,
+                -0.0,
+                0,
                 1.0
               ]
             ]
           }
         },
         "Color": [
-          0.839216,
-          0.639216,
-          0.294118
+          0.39,
+          0.37,
+          0.32
         ],
-        "Material": "Glass",
+        "Material": "Cobblestone",
         "Size": [
-          1.2,
-          1.2,
-          1.2
+          18.0,
+          0.32,
+          214.0
         ],
         "Transparency": 0,
         "Shape": "Block",
         "TopSurface": "Smooth",
         "BottomSurface": "Smooth"
-      }
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T7_-1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              10.0,
+              0.99,
+              154.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T7_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              10.0,
+              0.99,
+              154.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0,
+                0.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                -0.0,
+                0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoad_Tycoon8",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -154.0,
+              0.78,
+              0.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                -1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.39,
+          0.37,
+          0.32
+        ],
+        "Material": "Cobblestone",
+        "Size": [
+          18.0,
+          0.32,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T8_-1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -154.0,
+              0.99,
+              10.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                -1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
+    },
+    {
+      "name": "RoyalRoadEdge_T8_1",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -154.0,
+              0.99,
+              10.0
+            ],
+            "orientation": [
+              [
+                6.123233995736766e-17,
+                0,
+                -1.0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                1.0,
+                0,
+                6.123233995736766e-17
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.48,
+          0.46,
+          0.42
+        ],
+        "Material": "Slate",
+        "Size": [
+          0.65,
+          0.35,
+          214.0
+        ],
+        "Transparency": 0,
+        "Shape": "Block",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      },
+      "children": []
     }
   ]
 }
