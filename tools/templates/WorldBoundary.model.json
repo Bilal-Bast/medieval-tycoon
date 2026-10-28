@@ -1,0 +1,2945 @@
+{
+  "className": "Model",
+  "properties": {
+    "WorldPivotData": {
+      "OptionalCFrame": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "orientation": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      }
+    }
+  },
+  "children": [
+    {
+      "name": "HillBase01",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              727.0,
+              19.76,
+              0.0
+            ],
+            "orientation": [
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          23.1,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge01",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              749.0,
+              38.16,
+              0.0
+            ],
+            "orientation": [
+              [
+                -0.390731,
+                0.0,
+                0.920505
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.920505,
+                0.0,
+                -0.390731
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          26.04,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase02",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              734.1207,
+              21.44,
+              167.5583
+            ],
+            "orientation": [
+              [
+                -0.222521,
+                0.0,
+                0.974928
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.974928,
+                0.0,
+                -0.222521
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          26.4,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge02",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              755.5691,
+              41.04,
+              172.4537
+            ],
+            "orientation": [
+              [
+                -0.585766,
+                0.0,
+                0.81048
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.81048,
+                0.0,
+                -0.585766
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          29.76,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase03",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              655.0044,
+              23.12,
+              315.4335
+            ],
+            "orientation": [
+              [
+                -0.433884,
+                0.0,
+                0.900969
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.900969,
+                0.0,
+                -0.433884
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          29.7,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge03",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              674.8257,
+              43.92,
+              324.9789
+            ],
+            "orientation": [
+              [
+                -0.751429,
+                0.0,
+                0.659814
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.659814,
+                0.0,
+                -0.751429
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          33.48,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase04",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              588.7191,
+              24.8,
+              469.4878
+            ],
+            "orientation": [
+              [
+                -0.62349,
+                0.0,
+                0.781831
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.781831,
+                0.0,
+                -0.62349
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          33.0,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge04",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              605.9194,
+              46.8,
+              483.2046
+            ],
+            "orientation": [
+              [
+                -0.879411,
+                0.0,
+                0.476063
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.476063,
+                0.0,
+                -0.879411
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          37.2,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase05",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              453.2771,
+              26.48,
+              568.3915
+            ],
+            "orientation": [
+              [
+                -0.781831,
+                0.0,
+                0.62349
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.62349,
+                0.0,
+                -0.781831
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          36.3,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge05",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              466.9939,
+              49.68,
+              585.5918
+            ],
+            "orientation": [
+              [
+                -0.963297,
+                0.0,
+                0.268439
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.268439,
+                0.0,
+                -0.963297
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          40.92,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase06",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              326.7145,
+              19.76,
+              678.4296
+            ],
+            "orientation": [
+              [
+                -0.900969,
+                0.0,
+                0.433884
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.433884,
+                0.0,
+                -0.900969
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          23.1,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge06",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              336.2599,
+              38.16,
+              698.2509
+            ],
+            "orientation": [
+              [
+                -0.998878,
+                0.0,
+                0.047356
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.047356,
+                0.0,
+                -0.998878
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          26.04,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase07",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              161.7727,
+              21.44,
+              708.7726
+            ],
+            "orientation": [
+              [
+                -0.974928,
+                0.0,
+                0.222521
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.222521,
+                0.0,
+                -0.974928
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          26.4,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge07",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              166.6682,
+              41.04,
+              730.221
+            ],
+            "orientation": [
+              [
+                -0.984372,
+                0.0,
+                -0.176103
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.176103,
+                0.0,
+                -0.984372
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          29.76,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase08",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              23.12,
+              753.0
+            ],
+            "orientation": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.0,
+                0.0,
+                -1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          29.7,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge08",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              0.0,
+              43.92,
+              775.0
+            ],
+            "orientation": [
+              [
+                -0.920505,
+                0.0,
+                -0.390731
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.390731,
+                0.0,
+                -0.920505
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          33.48,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase09",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -161.7727,
+              24.8,
+              708.7726
+            ],
+            "orientation": [
+              [
+                -0.974928,
+                0.0,
+                -0.222521
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.222521,
+                0.0,
+                -0.974928
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          33.0,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge09",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -166.6682,
+              46.8,
+              730.221
+            ],
+            "orientation": [
+              [
+                -0.81048,
+                0.0,
+                -0.585766
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.585766,
+                0.0,
+                -0.81048
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          37.2,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase10",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.7145,
+              26.48,
+              678.4296
+            ],
+            "orientation": [
+              [
+                -0.900969,
+                0.0,
+                -0.433884
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.433884,
+                0.0,
+                -0.900969
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          36.3,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge10",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -336.2599,
+              49.68,
+              698.2509
+            ],
+            "orientation": [
+              [
+                -0.659814,
+                0.0,
+                -0.751429
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.751429,
+                0.0,
+                -0.659814
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          40.92,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase11",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -453.2771,
+              19.76,
+              568.3915
+            ],
+            "orientation": [
+              [
+                -0.781831,
+                0.0,
+                -0.62349
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.62349,
+                0.0,
+                -0.781831
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          23.1,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge11",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -466.9939,
+              38.16,
+              585.5918
+            ],
+            "orientation": [
+              [
+                -0.476063,
+                0.0,
+                -0.879411
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.879411,
+                0.0,
+                -0.476063
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          26.04,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase12",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -588.7191,
+              21.44,
+              469.4878
+            ],
+            "orientation": [
+              [
+                -0.62349,
+                0.0,
+                -0.781831
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.781831,
+                0.0,
+                -0.62349
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          26.4,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge12",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -605.9194,
+              41.04,
+              483.2046
+            ],
+            "orientation": [
+              [
+                -0.268439,
+                0.0,
+                -0.963297
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.963297,
+                0.0,
+                -0.268439
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          29.76,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase13",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -655.0044,
+              23.12,
+              315.4335
+            ],
+            "orientation": [
+              [
+                -0.433884,
+                0.0,
+                -0.900969
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.900969,
+                0.0,
+                -0.433884
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          29.7,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge13",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -674.8257,
+              43.92,
+              324.9789
+            ],
+            "orientation": [
+              [
+                -0.047356,
+                0.0,
+                -0.998878
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.998878,
+                0.0,
+                -0.047356
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          33.48,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase14",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -734.1207,
+              24.8,
+              167.5583
+            ],
+            "orientation": [
+              [
+                -0.222521,
+                0.0,
+                -0.974928
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.974928,
+                0.0,
+                -0.222521
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          33.0,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge14",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -755.5691,
+              46.8,
+              172.4537
+            ],
+            "orientation": [
+              [
+                0.176103,
+                0.0,
+                -0.984372
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.984372,
+                0.0,
+                0.176103
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          37.2,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase15",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -727.0,
+              26.48,
+              0.0
+            ],
+            "orientation": [
+              [
+                -0.0,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                -0.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          36.3,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge15",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -749.0,
+              49.68,
+              0.0
+            ],
+            "orientation": [
+              [
+                0.390731,
+                0.0,
+                -0.920505
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.920505,
+                0.0,
+                0.390731
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          40.92,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase16",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -734.1207,
+              19.76,
+              -167.5583
+            ],
+            "orientation": [
+              [
+                0.222521,
+                0.0,
+                -0.974928
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.974928,
+                0.0,
+                0.222521
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          23.1,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge16",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -755.5691,
+              38.16,
+              -172.4537
+            ],
+            "orientation": [
+              [
+                0.585766,
+                0.0,
+                -0.81048
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.81048,
+                0.0,
+                0.585766
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          26.04,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase17",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -655.0044,
+              21.44,
+              -315.4335
+            ],
+            "orientation": [
+              [
+                0.433884,
+                0.0,
+                -0.900969
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.900969,
+                0.0,
+                0.433884
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          26.4,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge17",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -674.8257,
+              41.04,
+              -324.9789
+            ],
+            "orientation": [
+              [
+                0.751429,
+                0.0,
+                -0.659814
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.659814,
+                0.0,
+                0.751429
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          29.76,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase18",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -588.7191,
+              23.12,
+              -469.4878
+            ],
+            "orientation": [
+              [
+                0.62349,
+                0.0,
+                -0.781831
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.781831,
+                0.0,
+                0.62349
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          29.7,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge18",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -605.9194,
+              43.92,
+              -483.2046
+            ],
+            "orientation": [
+              [
+                0.879411,
+                0.0,
+                -0.476063
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.476063,
+                0.0,
+                0.879411
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          33.48,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase19",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -453.2771,
+              24.8,
+              -568.3915
+            ],
+            "orientation": [
+              [
+                0.781831,
+                0.0,
+                -0.62349
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.62349,
+                0.0,
+                0.781831
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          33.0,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge19",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -466.9939,
+              46.8,
+              -585.5918
+            ],
+            "orientation": [
+              [
+                0.963297,
+                0.0,
+                -0.268439
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.268439,
+                0.0,
+                0.963297
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          37.2,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase20",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -326.7145,
+              26.48,
+              -678.4296
+            ],
+            "orientation": [
+              [
+                0.900969,
+                0.0,
+                -0.433884
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.433884,
+                0.0,
+                0.900969
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          36.3,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge20",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -336.2599,
+              49.68,
+              -698.2509
+            ],
+            "orientation": [
+              [
+                0.998878,
+                0.0,
+                -0.047356
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.047356,
+                0.0,
+                0.998878
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          40.92,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase21",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -161.7727,
+              19.76,
+              -708.7726
+            ],
+            "orientation": [
+              [
+                0.974928,
+                0.0,
+                -0.222521
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.222521,
+                0.0,
+                0.974928
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          23.1,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge21",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -166.6682,
+              38.16,
+              -730.221
+            ],
+            "orientation": [
+              [
+                0.984372,
+                0.0,
+                0.176103
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.176103,
+                0.0,
+                0.984372
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          26.04,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase22",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -0.0,
+              21.44,
+              -753.0
+            ],
+            "orientation": [
+              [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          26.4,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge22",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              -0.0,
+              41.04,
+              -775.0
+            ],
+            "orientation": [
+              [
+                0.920505,
+                0.0,
+                0.390731
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.390731,
+                0.0,
+                0.920505
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          29.76,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase23",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              161.7727,
+              23.12,
+              -708.7726
+            ],
+            "orientation": [
+              [
+                0.974928,
+                0.0,
+                0.222521
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.222521,
+                0.0,
+                0.974928
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          29.7,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge23",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              166.6682,
+              43.92,
+              -730.221
+            ],
+            "orientation": [
+              [
+                0.81048,
+                0.0,
+                0.585766
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.585766,
+                0.0,
+                0.81048
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          33.48,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase24",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              326.7145,
+              24.8,
+              -678.4296
+            ],
+            "orientation": [
+              [
+                0.900969,
+                0.0,
+                0.433884
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.433884,
+                0.0,
+                0.900969
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          33.0,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge24",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              336.2599,
+              46.8,
+              -698.2509
+            ],
+            "orientation": [
+              [
+                0.659814,
+                0.0,
+                0.751429
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.751429,
+                0.0,
+                0.659814
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          37.2,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase25",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              453.2771,
+              26.48,
+              -568.3915
+            ],
+            "orientation": [
+              [
+                0.781831,
+                0.0,
+                0.62349
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.62349,
+                0.0,
+                0.781831
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          36.3,
+          110.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge25",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              466.9939,
+              49.68,
+              -585.5918
+            ],
+            "orientation": [
+              [
+                0.476063,
+                0.0,
+                0.879411
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.879411,
+                0.0,
+                0.476063
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          40.92,
+          74.8
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase26",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              588.7191,
+              19.76,
+              -469.4878
+            ],
+            "orientation": [
+              [
+                0.62349,
+                0.0,
+                0.781831
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.781831,
+                0.0,
+                0.62349
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          170.0,
+          23.1,
+          119.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge26",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              605.9194,
+              38.16,
+              -483.2046
+            ],
+            "orientation": [
+              [
+                0.268439,
+                0.0,
+                0.963297
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.963297,
+                0.0,
+                0.268439
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          105.4,
+          26.04,
+          80.92
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase27",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              655.0044,
+              21.44,
+              -315.4335
+            ],
+            "orientation": [
+              [
+                0.433884,
+                0.0,
+                0.900969
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.900969,
+                0.0,
+                0.433884
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          182.0,
+          26.4,
+          128.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge27",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              674.8257,
+              41.04,
+              -324.9789
+            ],
+            "orientation": [
+              [
+                0.047356,
+                0.0,
+                0.998878
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.998878,
+                0.0,
+                0.047356
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          112.84,
+          29.76,
+          87.04
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillBase28",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              734.1207,
+              23.12,
+              -167.5583
+            ],
+            "orientation": [
+              [
+                0.222521,
+                0.0,
+                0.974928
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.974928,
+                0.0,
+                0.222521
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.321569,
+          0.407843,
+          0.266667
+        ],
+        "Material": "Grass",
+        "Size": [
+          158.0,
+          29.7,
+          137.0
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    },
+    {
+      "name": "HillRidge28",
+      "className": "Part",
+      "properties": {
+        "Anchored": true,
+        "CanCollide": true,
+        "CanQuery": false,
+        "CanTouch": false,
+        "CastShadow": true,
+        "CFrame": {
+          "CFrame": {
+            "position": [
+              755.5691,
+              43.92,
+              -172.4537
+            ],
+            "orientation": [
+              [
+                -0.176103,
+                0.0,
+                0.984372
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.984372,
+                0.0,
+                -0.176103
+              ]
+            ]
+          }
+        },
+        "Color": [
+          0.4,
+          0.466667,
+          0.329412
+        ],
+        "Material": "Grass",
+        "Size": [
+          97.96,
+          33.48,
+          93.16
+        ],
+        "Transparency": 0,
+        "Shape": "Wedge",
+        "TopSurface": "Smooth",
+        "BottomSurface": "Smooth"
+      }
+    }
+  ]
+}
