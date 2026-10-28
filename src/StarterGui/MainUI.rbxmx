@@ -213,25 +213,42 @@
           <BinaryString name="SerializedOverrides">
             </BinaryString>
           <string name="Source">local player = game.Players.LocalPlayer
-local cashLabel = script.Parent:WaitForChild("CashLabel")
+local cashFrame = script.Parent
+local cashLabel = cashFrame:WaitForChild("CashLabel")
 
+cashFrame.Size = UDim2.new(0, 245, 0, 104)
+cashLabel.Position = UDim2.new(0, 58, 0, 5)
+cashLabel.Size = UDim2.new(1, -68, 0, 27)
+cashLabel.TextYAlignment = Enum.TextYAlignment.Center
+
+local function makeReadout(name, y)
+	local label = Instance.new("TextLabel")
+	label.Name = name .. "Label"
+	label.Position = UDim2.new(0, 58, 0, y)
+	label.Size = UDim2.new(1, -68, 0, 23)
+	label.BackgroundTransparency = 1
+	label.Font = Enum.Font.GothamBold
+	label.TextColor3 = Color3.fromRGB(250, 220, 160)
+	label.TextSize = 14
+	label.TextScaled = true
+	label.TextXAlignment = Enum.TextXAlignment.Left
+	label.TextYAlignment = Enum.TextYAlignment.Center
+	label.Parent = cashFrame
+	return label
+end
+
+local prosperityLabel = makeReadout("Prosperity", 34)
+local populationLabel = makeReadout("Population", 65)
 local leaderstats = player:WaitForChild("leaderstats")
 local cash = leaderstats:WaitForChild("Cash")
 
 local function formatNumber(number)
 	local formatted = tostring(number)
-
 	while true do
-		local newFormatted, replacements =
-			formatted:gsub("^(-?%d+)(%d%d%d)", "%1,%2")
-
+		local newFormatted, replacements = formatted:gsub("^(-?%d+)(%d%d%d)", "%1,%2")
 		formatted = newFormatted
-
-		if replacements == 0 then
-			break
-		end
+		if replacements == 0 then break end
 	end
-
 	return formatted
 end
 
@@ -239,9 +256,16 @@ local function updateCash()
 	cashLabel.Text = "CASH: $" .. formatNumber(cash.Value)
 end
 
-updateCash()
+local function updateKingdomLife()
+	prosperityLabel.Text = "PROSPERITY: " .. tostring(player:GetAttribute("Prosperity") or 0)
+	populationLabel.Text = "POPULATION: " .. tostring(player:GetAttribute("Population") or 0)
+end
 
-cash:GetPropertyChangedSignal("Value"):Connect(updateCash)</string>
+updateCash()
+updateKingdomLife()
+cash:GetPropertyChangedSignal("Value"):Connect(updateCash)
+player:GetAttributeChangedSignal("Prosperity"):Connect(updateKingdomLife)
+player:GetAttributeChangedSignal("Population"):Connect(updateKingdomLife)</string>
           <int64 name="SourceAssetId">-1</int64>
           <BinaryString name="Tags" />
           <UniqueId name="UniqueId">3bc8618143a82e450ad1812000002902</UniqueId>
